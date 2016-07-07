@@ -819,3 +819,58 @@ input[name=vat]{
 //  background: black url("@{pfot_path}/concrete_wall.png") repeat;
 //  .pfot_text(black);
 //}
+
+/* Checkout Form */
+#wsd_checkout_form .form-control-feedback {
+    top: 26px;
+}
+.row .wsd_opc_delivery {
+    display: none;
+}
+
+/* Shopping Cart */
+  .fa-shopping-cart:before {
+    /*content: "\f16b";*/
+    content: "\f004";
+
+  }
+  [data-name='frst-submit-button'] {
+    max-width: initial !important;
+    min-width: 150px !important;
+}
+
+
+[data-name='ogonedadi-submit-button'] {
+    max-width: initial !important;
+    min-width: 150px !important;
+    margin-top: 142px;
+}
+
+  @media (max-width:600px) {
+    #payment_method {
+      margin-bottom: 40px;
+
+      .tab-content {
+        border: 1px solid #ddd;
+        border-top: none;
+        margin: auto;
+        min-heigth: 250px;
+      }
+
+      .nav-tabs {
+        text-align: center;
+        > li {
+          float: none;
+          img {
+            margin: auto;
+          }
+        }
+      }
+
+      .nav {
+        > li {
+          display: inline-block;
+        }
+      }
+    }
+  }
