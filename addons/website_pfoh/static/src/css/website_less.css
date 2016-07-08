@@ -547,10 +547,16 @@ input[name=vat] {
 .row .wsd_opc_delivery {
   display: none;
 }
+#payment_method {
+  margin-bottom: 40px;
+}
 /* Shopping Cart */
 .fa-shopping-cart:before {
   /*content: "\f16b";*/
   content: "\f004";
+}
+#order_total > td > h3 {
+  font-size: 1.3em !important;
 }
 [data-name='frst-submit-button'] {
   max-width: initial !important;
@@ -561,30 +567,42 @@ input[name=vat] {
   min-width: 150px !important;
   margin-top: 142px;
 }
-@media (max-width: 600px) {
-  #payment_method {
-    margin-bottom: 40px;
+@media (min-width: 1200px) {
+  [data-name='ogonedadi-submit-button'] {
+    margin-top: 164px !important;
   }
-  #payment_method .tab-content {
-    border: 1px solid #ddd;
-    border-top: none;
-    margin: auto;
-    min-heigth: 250px;
+}
+@media (max-width: 400px) {
+  [data-name='ogonedadi-submit-button'] {
+    margin-top: 107px;
   }
-  #payment_method .nav-tabs {
-    text-align: center;
-  }
-  #payment_method .nav-tabs > li {
-    float: none;
-  }
-  #payment_method .nav-tabs > li img {
-    margin: auto;
-  }
-  #payment_method .nav > li {
-    display: inline-block;
-  }
+}
+#payment_method {
+  margin-bottom: 40px;
+}
+#payment_method .tab-content {
+  height: auto;
+  border: 1px solid #ddd;
+  border-top: none;
+  margin: auto;
+  min-heigth: 240px !important;
+}
+#payment_method .nav-tabs {
+  text-align: center;
+}
+#payment_method .nav-tabs > li {
+  float: none;
+}
+#payment_method .nav-tabs > li img {
+  margin: auto;
+}
+#payment_method .nav > li {
+  display: inline-block;
 }
 /* POPUPBOX */
 #popupbox {
   background-color: rgba(0, 0, 0, 0.41);
+}
+.pfot_popup_rounded_corner {
+  border-radius: 10px;
 }

@@ -3,7 +3,19 @@
 
 <template id="website_pfoh_snippet_options" inherit_id="website.snippet_options">
 
-
+    <xpath expr="//div[@data-snippet-option-id='blog-style']//li" position="after">
+        <li class="dropdown-submenu" data-required="true">
+            <a tabindex="-1" href="#">Box-Styles</a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                    <a tabindex="-2" href="#">Umrandung</a>
+                        <ul class="dropdown-menu">
+                            <li data-value='pfot_popup_rounded_corner'><a>Ecken abrunden</a></li>
+                        </ul>
+                </li>
+            </ul>
+        </li>
+    </xpath>
 
     <!-- Replace Background Colors and Images -->
     <xpath expr="//div[@data-snippet-option-id='background']/li" position="replace">
