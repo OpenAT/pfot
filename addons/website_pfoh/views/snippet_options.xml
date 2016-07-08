@@ -24,6 +24,10 @@
                     <ul class="dropdown-menu">
                         <li data-value="pfotenhilfe_bg_grau"><a>Pfote grau</a></li>
                         <li data-value="pfotenhilfe_bg_sw"><a>Pfote Schwarz</a></li>
+                        <li data-value="pfotenhilfe_bg_solid_grey_dark"><a>grau deckend</a></li>
+                        <li data-value="pfotenhilfe_bg_solid_white"><a>weiss deckend</a></li>
+                        <li data-value="pfotenhilfe_bg_solid_brown"><a>braun deckend</a></li>
+                        <li data-value="pfotenhilfe_bg_solid_green"><a>grün deckend</a></li>
                     </ul>
                 </li>
                <li class="dropdown-submenu">

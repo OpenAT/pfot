@@ -412,6 +412,18 @@ header .dropdown-menu > li > a:focus {
   background-image: url(/website_pfoh/static/src/img/pfote.gif);
   background-repeat: repeat;
 }
+.pfotenhilfe_bg_solid_grey_dark {
+  background-color: #413839;
+}
+.pfotenhilfe_bg_solid_white {
+  background-color: #e5e4e2;
+}
+.pfotenhilfe_bg_solid_brown {
+  background-color: #b8aa8c;
+}
+.pfotenhilfe_bg_solid_green {
+  background-color: #7cb61c;
+}
 /* ---- BANNER ---- */
 .oe_img_bg {
   background-position: top center;
@@ -571,4 +583,8 @@ input[name=vat] {
   #payment_method .nav > li {
     display: inline-block;
   }
+}
+/* POPUPBOX */
+#popupbox {
+  background-color: rgba(0, 0, 0, 0.41);
 }
