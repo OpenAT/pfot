@@ -551,6 +551,12 @@ input[name=vat] {
   margin-bottom: 40px;
 }
 @media (max-width: 500px) {
+  .btn {
+    white-space: normal;
+  }
+  .o_image_floating {
+    width: initial;
+  }
   .price_donate .input-group-addon {
     min-width: 40px !important;
   }
