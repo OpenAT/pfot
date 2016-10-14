@@ -31,17 +31,21 @@ Pfotenhilfe CMS Anpassungen
 Anpassungen an CSS, Snippets, Images und alles was zum CMS gehört.
 
     """,
-    'author': "OpenAT",
-    'website': "http://www.openat.at/",
+    'author': "Datadialog",
+    'website': "http://www.datadialog.net",
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '0.2',
     'depends': [
-        'base', 'website'
+        'base',
+        'website',
+        'website_crm',
+        'website_snippet_contact_form',
     ],
     'installable': True,
     'data': [
         'static/src/xml/website_templates.xml',
         #'views/snippets.xml',
         'views/snippet_options.xml',
+        'views/contact_form.xml',
     ],
 }
