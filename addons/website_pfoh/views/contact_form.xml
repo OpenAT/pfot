@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- Remove "Company Name" from required fields in contact form -->
+        <template id="dadi_contactus_form" inherit_id="website_crm.contactus_form_company_name" name="dadi contactus_form modifications">
+            <xpath expr='//input[@name="partner_name"]' position="attributes">
+                <attribute name="required"/>
+            </xpath>
+        </template>
+
+
+
+        <!-- Drag and Drop Contact Form -->
+        <template id="dadi_contactus_form_snippet"
+                  inherit_id="website_snippet_contact_form.website_snippet_contact_form"
+                  name="dadi contactus_form snippet modifications">
+            <xpath expr='//input[@name="partner_name"]' position="attributes">
+                <attribute name="required"/>
+            </xpath>
+        </template>
+
+    </data>
+</openerp>
