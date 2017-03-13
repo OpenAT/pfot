@@ -630,3 +630,6 @@ input[name=vat] {
 .pfot_popup_rounded_corner {
   border-radius: 10px;
 }
+body[data-rootcatid="28"] .ppt_opc #wsd-checkout-box img.product-image {
+ width: auto !important;
+}
