@@ -631,5 +631,51 @@ input[name=vat] {
   border-radius: 10px;
 }
 body[data-rootcatid="28"] .ppt_opc #wsd-checkout-box img.product-image {
- width: auto !important;
+  width: auto !important;
+}
+/* Website Cookie notice */
+#website_cookie_notice {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  /* background-color: #000 !important; */
+  /* background-color: #c1ab8f !important; */
+  /* background-color: #ffe083 !important; */
+  overflow: hidden;
+  z-index: 9001;
+}
+#website_cookie_notice a {
+  color: grey;
+  text-decoration: underline;
+}
+#website_cookie_notice > div > div > div.col-xs-10 {
+  color: #000;
+  font-size: 18px;
+}
+#website_cookie_notice .btn-primary {
+  background-color: #7cb61c;
+  border-color: #7cb61c;
+}
+#website_cookie_notice > div > div > div.col-xs-2.text-center > a {
+  color: white;
+}
+#website_cookie_notice .container {
+  width: 100%;
+}
+/* Website cookie notice Mobile */
+@media (max-width: 400px) {
+  #website_cookie_notice > div > div > div.col-xs-10 {
+    color: #000;
+    font-size: 16px !important;
+    width: 100%;
+    text-align: center;
+  }
+  #website_cookie_notice .btn-primary {
+    width: 200px;
+  }
+  #website_cookie_notice > div > div > div.col-xs-2.text-center {
+    width: 100%;
+  }
 }
