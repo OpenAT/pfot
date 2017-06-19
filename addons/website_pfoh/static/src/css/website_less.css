@@ -679,9 +679,27 @@ body[data-rootcatid="28"] .ppt_opc #wsd-checkout-box img.product-image {
     width: 100%;
   }
 }
+/* Login Buttons */
 #top_menu > li.divider {
   display: none;
 }
 #top_menu > li:last-child {
   display: none;
 }
+#wsd_checkout_steps_nav > div > div > a.btn.btn-primary.navbar-btn {
+  display: none;
+}
+/* Login buttons end */
+/* OnePage Checkout */
+#website_sale_donate > div > div.row.ppt_opc-small_cart {
+  display: none;
+}
+.ppt_opc #wsd-checkout-box img.product-image {
+  width: 50% !important;
+  height: auto;
+}
+.ppt_opc .row.one-page-checkout.ppt_opc-checkout {
+  width: 70%;
+  margin: auto;
+}
+/* OnePage Checkout end */
