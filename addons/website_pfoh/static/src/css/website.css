@@ -215,3 +215,8 @@ footer a:visited {
     color: black;
 }
 */
+
+/* by Mike Quick fix */
+h3.checkout_title {
+display: none;
+}
