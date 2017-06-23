@@ -703,3 +703,8 @@ body[data-rootcatid="28"] .ppt_opc #wsd-checkout-box img.product-image {
   margin: auto;
 }
 /* OnePage Checkout end */
+
+/* by Mike Quick fix */
+h3.checkout_title {
+    display: none;
+}
