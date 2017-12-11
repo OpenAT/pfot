@@ -174,30 +174,6 @@
 
 </template>
 
-        <!-- Newsletter Option  -->
-<template id="contactus_form_newsletter_pfotenhilfe"
-          inherit_id="website_blog.blog_post_complete"
-          name="Newsletter Checkbox"
-          customize_show="True" active="False"></template>
-
-<template id="contactus_form_newsletter_blogpost"
-          inherit_id="dadi_contactus_form_snippet">
-        <xpath expr="//form/div/div/button/../.." position="before">
-        <!-- Newsletter -->
-        <div t-attf-class="form-group #{error and 'newsletter_web' in error and 'has-error' or ''}">
-            <label class="col-md-3 col-sm-4 control-label" for="newsletter_web"></label>
-            <div class="col-md-7 col-sm-8">
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" name="newsletter_web" required="True"/>
-                        <span name="newsletter_web">Please send me your newsletter!</span>
-                    </label>
-                </div>
-            </div>
-        </div>
-
-    </xpath>
-</template>
 <!--    <template id="assets_frontend" inherit_id="website.assets_frontend" name="pfoh theme">
         <xpath expr="." position="inside">
             <script src="/website/static/src/js/pfoh.js"></script>
