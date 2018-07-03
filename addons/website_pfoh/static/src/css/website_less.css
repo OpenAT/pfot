@@ -206,9 +206,12 @@ h1 {
   font-size: 54px;
 }
 @media (max-width: 414px) {
+  #wrap > div:nth-child(1) > section:nth-child(4) > div > div > div > h1:nth-child(2) {
+    text-align: center !important;
+  }
   body h1 {
-    font-size: 10vw;
-    font-size: 10vmin;
+    font-size: 9vw;
+    font-size: 9vmin;
   }
   body h2 {
     font-size: 8vw;
@@ -228,6 +231,9 @@ h1 {
     font-size: 5vw;
     font-size: 5vmin;
   }
+}
+#wrap > div:nth-child(1) > section:nth-child(4) > div > div > div > h1:nth-child(2) span {
+  font-size: calc(33.23076923px) !important;
 }
 h1,
 h2,
@@ -544,6 +550,15 @@ input[name=vat] {
 #wsd_checkout_form .form-control-feedback {
   top: 26px !important;
 }
+#wsd_checkout_form h3.amount_title {
+  text-align: center;
+}
+#wsd-checkout-box h3.amount_title {
+  text-align: center !important;
+}
+.radio {
+  text-align: center;
+}
 .row .wsd_opc_delivery {
   display: none;
 }
@@ -697,6 +712,14 @@ body[data-rootcatid="28"] .ppt_opc #wsd-checkout-box img.product-image {
 .ppt_opc #wsd-checkout-box img.product-image {
   width: 50% !important;
   height: auto;
+}
+@media (max-width: 991px) {
+  .ppt_opc .row.one-page-checkout.ppt_opc-checkout {
+    width: 98% !important;
+  }
+}
+.has-feedback .form-control {
+  padding-right: 8px;
 }
 .ppt_opc .row.one-page-checkout.ppt_opc-checkout {
   width: 70%;

@@ -366,11 +366,13 @@ h@{index} {
 .h(@iterations);
 
 @media (max-width: 414px) {
+  #wrap > div:nth-child(1) > section:nth-child(4) > div > div > div > h1:nth-child(2) {
+  text-align: center !important;
+}
     body h1 {
-        font-size: 10vw;
-        font-size: 10vmin;
+        font-size: 9vw;
+        font-size: 9vmin;
     }
-
     body h2 {
         font-size: 8vw;
         font-size: 8vmin;
@@ -392,10 +394,15 @@ h@{index} {
     }
 }
 
+#wrap > div:nth-child(1) > section:nth-child(4) > div > div > div > h1:nth-child(2) span {
+    font-size: calc(36px + (54 - 36) * ((100vw - 300px) / (1600 - 300))) !important;
+}
+
 //@{headings}
 h1,h2,h3,h4,h5 {
   margin-top: 0;
 }
+
 //beispiel: http://jsfiddle.net/zxVhL/16/
 .pfot_img_badge-header-after1 {
   //background-color: @pfot_bg_yellow; NEWS
@@ -836,6 +843,15 @@ input[name=vat]{
 #wsd_checkout_form .form-control-feedback {
     top: 26px !important;
 }
+#wsd_checkout_form h3.amount_title {
+    text-align: center;
+}
+#wsd-checkout-box h3.amount_title {
+    text-align: center !important;
+}
+.radio {
+  text-align: center;
+}
 .row .wsd_opc_delivery {
     display: none;
 }
@@ -1006,6 +1022,17 @@ body[data-rootcatid="28"] .ppt_opc #wsd-checkout-box img.product-image {
   width: 50% !important;
   height: auto;
 }
+
+@media (max-width: 991px){
+.ppt_opc .row.one-page-checkout.ppt_opc-checkout {
+  width: 98% !important;
+}
+}
+
+.has-feedback .form-control {
+    padding-right: 8px;
+}
+
 .ppt_opc .row.one-page-checkout.ppt_opc-checkout {
   width: 70%;
   margin: auto;
