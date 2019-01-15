@@ -436,6 +436,87 @@ h1,h2,h3,h4,h5 {
   top: 60%;
   right: 10%;
 }
+.MenuDonationBadge:before {
+  content: attr(href)" ";
+}
+.MenuDonationBadge:after {
+   //content: attr(data-Badge);
+   content: " (http://www.pfotenhilfe.org" attr(href) ") ";
+   padding:15px;
+   font-size:.7em;
+   background: rgb(245, 227, 136);
+   color: #c1322b;
+   width:96px;
+   height:48px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 2px #333;
+   //margin-top: 7px;
+   //float:left;
+   position: absolute;
+   top: 45%;
+   right: 14%;
+}
+
+//BADGE
+/*.MenuDonationBadge {
+  position:relative;
+}
+
+.MenuDonationBadge:after {
+  content:"12";
+
+  position:absolute;
+  top:-15px;
+  right:-18px;
+
+  font-size:11px;
+  font-family:"Roboto","Helvetica","Arial",sans-serif;
+  font-weight:600;
+
+  text-align:center;
+  line-height:23px;
+
+  background:#ff4081;
+  color:white;
+
+  width:22px;
+  height:22px;
+
+  border-radius:50%;
+  !* box-shadow:1px 2px 5px #888; *!
+}*/
+
+/* Class or Id doesn't matter */
+/*.MenuDonationBadge {
+  position:relative;
+}
+
+.MenuDonationBadge[data-badge]:after {
+  content:attr(data-badge);
+
+  position:absolute;
+  top:-15px;
+  right:-18px;
+
+  font-size:11px;
+  font-family:"Roboto","Helvetica","Arial",sans-serif;
+  font-weight:600;
+
+  text-align:center;
+  line-height:23px;
+
+  background:#ff4081;
+  color:white;
+
+  width:22px;
+  height:22px;
+
+  border-radius:50%;
+  !* box-shadow:1px 2px 5px #888; *!
+}*/
+//BADGE
 
 .btn-default {
   background-color: @pfot_lightblue_medium;
@@ -1055,4 +1136,56 @@ h3.checkout_title {
 eingebaut werden alle klappt */
 #wrap section div.container div.row div.col-md-4 img {
 	width: 100%;
+}
+
+/* Special for External Website category external RainerPredl */
+body[data-rootcatid="29"] {
+
+header {
+    display: none;
+}
+
+/* No media query for 'xs' since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 520px) {
+  div.row.billing-fields [class*="col-md-4"], [class*="col-md-4"], [class*="col-md-5"], [class*="col-md-6"], [class*="col-md-7"], [class*="col-md-8"], [class*="col-md-9"], [class*="col-md-10"] {
+    width: 50%;
+    float: left;
+  }
+    div.row.billing-fields [class*="col-md-2"], [class*="col-md-3"] {
+    width: 33%;
+    float: left;
+  }
+    #product_desc_short_top > section > div > div > div {
+      width: 33.333%;
+    }
+    /*special for cearfix only after title */
+  #wsd_checkout_form > div > div.text-left > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(3) {
+  width:100%;
+}
+}
+
+/*
+@media (min-width: 640px) {
+  .container {
+    max-width: 600px;
+  }
+}
+*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
 }
