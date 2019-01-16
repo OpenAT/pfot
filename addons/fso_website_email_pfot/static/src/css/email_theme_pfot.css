@@ -216,12 +216,27 @@ h1 {
     text-decoration: none;
     color: #5a5a5a;
 }
+#emailBody .drop_in_button.dadi_di_button_medium,
+#emailBody .drop_in_button.dadi_di_button_medium a {
+    font-size: 18px;
+    padding: 12px 40px;
+    line-height: 60px;
+    border-radius: 3px;
+}
 #emailBody .drop_in_button.dadi_di_button_large,
 #emailBody .drop_in_button.dadi_di_button_large a {
     font-size: 20px;
     padding: 15px 50px;
     line-height: 80px;
     border-radius: 3px;
+}
+#emailBody .drop_in_button.dadi_di_button_huge,
+#emailBody .drop_in_button.dadi_di_button_huge a {
+    font-size: 26px;
+    padding: 20px 60px;
+    line-height: 120px;
+    border-radius: 6px;
+    font-weight: 700;
 }
 
 #emailBody .drop_in_button.dadi_di_button_transparent a {
@@ -232,13 +247,15 @@ h1 {
 }
 #emailBody .drop_in_button.dadi_di_button_green a {
     background-color: #94c03d;
+    color: white;
 }
 #emailBody .drop_in_button.dadi_di_button_yellow a {
     background-color: #f4e485;
+    color: #5a5a5a;
 }
 #emailBody .drop_in_button.dadi_di_button_red a {
     background-color: #c41501;
-    color: white
+    color: white;
 }
 #emailBody .drop_in_button.dadi_di_button_blue a {
     background-color: #cae0f7;
@@ -301,4 +318,38 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 3px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 414px) {
+    body p,
+    body h1, body h2, body h3, body h4, body h5, body h6 {
+        font-size: inherit;
+    }
+    body h1 {
+        font-size: 26px;
+        padding-bottom: 12px;
+        font-weight: 700;
+    }
+    .h2, body h2 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .h3, body h3 {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .h4, body h4 {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .h5, body h5 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .h6, body h6 {
+        font-size: 12px;
+        font-weight: 300;
+    }
 }
