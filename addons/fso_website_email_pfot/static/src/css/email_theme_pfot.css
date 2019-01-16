@@ -1,0 +1,304 @@
+/* ---- */
+/* MAIN */
+/* ---- */
+html, body, #bodyTable, #bodyCell {
+    background-color: #f9f9f9;
+}
+html body #wrapwrap {
+    margin-top: 0;
+}
+.headerCell {
+    font-size: 12px;
+}
+#open_in_browser {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* pfot header */
+#pfot_header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#pfot_header .contentTable {
+    background-color: #d90000;
+    color: #eeeeee;
+    font-size: 11px;
+    line-height:13px;
+}
+#pfot_header .contentTable a {
+    color: #bbbbbb;
+}
+#pfot_header table.flexibleContainerLeft .imageContent {
+    padding: 6px 20px 0 20px;
+}
+#pfot_header table.flexibleContainerLeft .imageContent img {
+    width: 80px;
+}
+/*#pfot_header table.flexibleContainerLeft .imageContent,*/
+#pfot_header table.flexibleContainerRight .textContent {
+    padding: 15px 20px;
+}
+@media only screen and (max-width: 480px) {
+  #pfot_header {
+    display: none!important;
+    }
+}
+
+/* body */
+#bodyCell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* pfot footer */
+#pfot_footer {
+    font-size: 11px;
+    line-height: 13px;
+}
+#pfot_footer .contentTable a {
+    color: #bbbbbb;
+}
+#pfot_footer .flexibleContainerLeft,
+#pfot_footer .flexibleContainerRight {
+    width: 50%;
+}
+
+
+#pfot_footer .pfot_footer_social .flexibleContainer {
+    border-top: 1px solid #dddddd;
+    background-color: white;
+}
+#pfot_footer .pfot_footer_social .contentTable .textContent {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#pfot_footer .pfot_footer_info {
+    padding-top: 20px;
+}
+#pfot_footer .pfot_footer_info .flexibleContainerLeft .textContent {
+    padding-top: 10px;
+}
+
+
+
+/* ------------------------------- */
+/* PFOT SIZING FOR 650 PIXEL WIDTH */
+/* ------------------------------- */
+#emailBody {
+    width: 650px;
+}
+
+/* Snippets */
+.flexibleContainer {
+    width: 650px;
+}
+
+.snippet_block_text_twocol .flexibleContainerRight,
+.snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
+    width: 295px;
+}
+.snippet_block_text_twocol .flexibleContainerLeft,
+.snippet_block_text_twocol .flexibleContainerLeft .flexibleImage {
+    width: 295px;
+}
+.snippet_block_text_threecol .flexibleContainer33,
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage {
+    width: 190px;
+}
+
+.snippet_block_text_image_left .flexibleContainerRight,
+.snippet_block_text_image_left .flexibleContainerRight .flexibleImage {
+    width: 390px;
+}
+.snippet_block_text_image_right .flexibleContainerLeft,
+.snippet_block_text_image_right .flexibleContainerLeft .flexibleImage {
+    width: 390px;
+}
+.snippet_block_banner .flexibleImage,
+.snippet_block_banner.dadi_sb_bg_normal .flexibleImage {
+    width: 610px;
+    max-width: 610px;
+}
+.snippet_block_banner.dadi_sb_bg_full .flexibleImage {
+    width: 650px;
+    max-width: 650px;
+}
+.snippet_block_banner.dadi_sb_bg_narrow .flexibleImage {
+    width: 570px;
+    max-width: 570px;
+}
+
+
+/* --------- */
+/* Main font */
+/* --------- */
+body {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', 'Segoe UI', 'Dejavu Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5a5a5a;
+}
+p {
+    /* Top */
+    margin-top: 0;
+    -webkit-margin-before: inherit;
+    /* Bottom */
+    margin-bottom: 0;
+    -webkit-margin-after: inherit;
+    padding-bottom: 0.25em;
+    /* Just reset */
+    -webkit-margin-start: inherit;
+    -webkit-margin-end: inherit;
+}
+/* Links */
+a {
+    color: #c41501;
+    text-decoration: none;
+}
+/* Headlines */
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0;
+}
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', 'Segoe UI', 'Dejavu Sans', Helvetica, Arial, sans-serif;
+    line-height: 140%;
+    color: #c41501;
+
+    /* Top */
+    margin-top: 0;
+    -webkit-margin-before: inherit;
+
+    /* Bottom */
+    margin-bottom: 0;
+    -webkit-margin-after: inherit;
+    padding-bottom: 0.25em;
+
+    /* Just reset */
+    -webkit-margin-start: inherit;
+    -webkit-margin-end: inherit;
+}
+h1 {
+    font-size: 26px;
+    padding-bottom: 12px;
+    font-weight: 700;
+}
+.h2, h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.h3, h3 {
+    font-size: 18px;
+    font-weight: 300;
+}
+.h4, h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+.h5, h5 {
+    font-size: 14px;
+    font-weight: 300;
+}
+.h6, h6 {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* BUTTONS */
+#emailBody .drop_in_button a {
+    display: block;
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 2px 16px;
+    text-decoration: none;
+    color: #5a5a5a;
+}
+#emailBody .drop_in_button.dadi_di_button_large,
+#emailBody .drop_in_button.dadi_di_button_large a {
+    font-size: 20px;
+    padding: 15px 50px;
+    line-height: 80px;
+    border-radius: 3px;
+}
+
+#emailBody .drop_in_button.dadi_di_button_transparent a {
+    background-color: transparent;
+}
+#emailBody .drop_in_button.dadi_di_button_black a {
+    background-color: #000000;
+}
+#emailBody .drop_in_button.dadi_di_button_green a {
+    background-color: #94c03d;
+}
+#emailBody .drop_in_button.dadi_di_button_yellow a {
+    background-color: #f4e485;
+}
+#emailBody .drop_in_button.dadi_di_button_red a {
+    background-color: #c41501;
+    color: white
+}
+#emailBody .drop_in_button.dadi_di_button_blue a {
+    background-color: #cae0f7;
+    color: #5a5a5a;
+    border-color: #cae0f7;
+}
+#emailBody .drop_in_button.dadi_di_button_orange a {
+    background-color: #f49800;
+    color: white;
+    border-color: #f49800;
+}
+#emailBody .drop_in_button.dadi_di_button_pink a {
+    background-color: #b32986;
+    color: white;
+    border-color: #b32986;
+}
+
+
+.drop_in_button.dadi_di_button_medium,
+.drop_in_button.dadi_di_button_medium a {
+    border-radius: 0;
+}
+.drop_in_button.dadi_di_button_large,
+.drop_in_button.dadi_di_button_large a {
+    border-radius: 0;
+}
+.drop_in_button.dadi_di_button_huge,
+.drop_in_button.dadi_di_button_huge a {
+    border-radius: 0;
+}
+
+/* SNIPPET OPTIONS */
+.dadi_sb_bg_lightgrey .flexibleContainerCell,
+.dadi_sb_fg_lightgrey .flexibleContainerCell .nestedContainerCell {
+    background-color: #eaeaeb;
+}
+
+.dadi_sb_bg_orange .flexibleContainerCell,
+.dadi_sb_fg_orange .flexibleContainerCell .nestedContainerCell {
+    background-color: #f49800;
+    color: white;
+}
+
+.dadi_sb_bg_pink .flexibleContainerCell,
+.dadi_sb_fg_pink .flexibleContainerCell .nestedContainerCell {
+    background-color: #b32986;
+    color: white;
+}
+
+.dadi_sb_bg_blue .flexibleContainerCell,
+.dadi_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
+    background-color: #407cca;
+    color: white;
+}
+
+.dadi_sb_fg_pink .flexibleContainerCell .nestedContainerCell,
+.dadi_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
