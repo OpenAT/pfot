@@ -148,8 +148,11 @@
                                                                                     <tr class="ckediting_disabled">
                                                                                         <td align="left" class="imageContent ckediting_disabled" valign="top">
                                                                                             
-                                                                                            <img class="flexibleImage" src="/fso_website_email_pfot/static/src/images/logo190.png"/>
+                                                                                            <img class="pfot_title_image flexibleImage" src="/fso_website_email_pfot/static/src/images/logo190.png"/>
                                                                                             
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <div class="pfot_title">Weil mir Tiere wichtig sind</div>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -160,7 +163,7 @@
                                                                                     <tr class="ckediting_disabled">
                                                                                         <td class="textContent ckediting_disabled" valign="top">
                                                                                             
-                                                                                            <p style="text-align: right;">
+                                                                                            <p style="text-align: right; display: none;">
                                                                                                 <b>Verein PFOTENHILFE</b><br/>
                                                                                                 A-1150 Wien, Diefenbachgasse 35<br/>
                                                                                                 Tel.: +43 (0)1 892 23 77<br/>
@@ -276,13 +279,13 @@
                                                                         <tr>
                                                                             <td align="center" class="textContent ckediting_enabled" valign="top">
                                                                                 <p style="text-align: left;">
-                                                                                    Copyright © Verein PFOTENHILFE. Diese E-Mail wurde an
+                                                                                    Copyright © Tierschutzhof PFOTENHILFE. Diese E-Mail wurde an
                                                                                     <span class="ckediting_disabled drop_in drop_in_print_field pf_email">
                                                                                         <span class="pf_email" data-fs-email-placeholder="%Email%" title="%Email%">
                                                                                             maximilian.mustermann@meinedomain.com
                                                                                         </span>
                                                                                     </span>
-                                                                                    gesandt. Sie erhalten dieses E-Mail, weil Sie den Verein PFOTENHILFE mit Spenden unterstützen oder
+                                                                                    gesandt. Sie erhalten dieses E-Mail, weil Sie den Tierschutzhof PFOTENHILFE mit Spenden unterstützen oder
                                                                                     weil Sie sich für unseren Newsletter angemeldet haben.
                                                                                 </p>
                                                                             </td>
@@ -297,11 +300,11 @@
                                                                             <td align="center" class="textContent ckediting_enabled" valign="top">
                                                                                 <p style="text-align: right;">
                                                                                     <strong>Unsere Anschrift lautet:</strong><br/>
-                                                                                    Verein PFOTENHILFE<br/>
-                                                                                    A-1150 Wien, Mariahilferstraße 167/13<br/>
-                                                                                    Tel.: 0800 400 210<br/>
-                                                                                    E-Mail: <a href="mailto:spenderservice@pfotenhilfe.org" target="_blank">spenderservice@pfotenhilfe.org</a><br/>
-                                                                                    Homepage: <a href="http://www.pfotenhilfe.org/" target="_blank">www.pfotenhilfe.org</a>
+                                                                                    Tierschutzhof PFOTENHILFE<br/>
+                                                                                    Gutferding 11, 5221 Lochen am See<br/>
+                                                                                    Tel.: +43|1|892 23 77<br/>
+                                                                                    E-Mail: <a href="mailto:info@pfotenhilfe.org" target="_blank">info@pfotenhilfe.org</a><br/>
+                                                                                    Website: <a href="http://www.pfotenhilfe.org/" target="_blank">www.pfotenhilfe.org</a>
                                                                                 </p>
                                                                             </td>
                                                                         </tr>
@@ -370,17 +373,17 @@
                         <table id="bodyTable" class="ckediting_disabled" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
 
                             <!-- HEADER -->
-                            <tr>
-                                <td id='open_in_browser' class="headerCell ckediting_disabled" align="center">
-                                    Wenn diese Nachricht nicht richtig angezeigt wird, verwenden Sie bitte die
-                                    <![CDATA[
-                                    <a id="view-email-in-browser"
-                                       href="%open_browser%" target="_blank">
-                                         Online-Version
-                                    </a>
-                                    ]]>
-                                </td>
-                            </tr>
+                            <!--<tr>-->
+                                <!--<td id='open_in_browser' class="headerCell ckediting_disabled" align="center">-->
+                                    <!--Wenn diese Nachricht nicht richtig angezeigt wird, verwenden Sie bitte die-->
+                                    <!--<![CDATA[-->
+                                    <!--<a id="view-email-in-browser"-->
+                                       <!--href="%open_browser%" target="_blank">-->
+                                         <!--Online-Version-->
+                                    <!--</a>-->
+                                    <!--]]>-->
+                                <!--</td>-->
+                            <!--</tr>-->
                             
                             <!-- PFOT HEADER -->
                             <tr>

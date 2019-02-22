@@ -131,9 +131,9 @@ html body #wrapwrap {
 }
 
 
-/* --------- */
-/* Main font */
-/* --------- */
+/* ---------- */
+/* Typography */
+/* ---------- */
 body {
     font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', 'Segoe UI', 'Dejavu Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -158,7 +158,8 @@ a {
     text-decoration: none;
 }
 /* Headlines */
-.h1, .h2, .h3, h1, h2, h3 {
+.h1, .h2, .h3,
+h1, h2, h3 {
     margin-top: 0;
 }
 .h1, .h2, .h3, .h4, .h5, .h6,
@@ -180,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-margin-start: inherit;
     -webkit-margin-end: inherit;
 }
-h1 {
+.h1, h1 {
     font-size: 26px;
     padding-bottom: 12px;
     font-weight: 700;
@@ -206,13 +207,35 @@ h1 {
     font-weight: 300;
 }
 
+.pfot_title_image {
+    margin-bottom: 8px;
+}
+.pfot_title {
+    font-family: "Myriad Pro", Myriad, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', 'Segoe UI', 'Dejavu Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 12px;
+}
+
+blockquote {
+    padding: 11px 22px;
+    margin: 0 0 22px;
+    font-size: 20px;
+    border-left: 5px solid #c41501;
+}
+
+
+/* ------- */
 /* BUTTONS */
+/* ------- */
 #emailBody .drop_in_button a {
     display: block;
     border-radius: 0;
     background-color: transparent;
     border: 1px solid transparent;
     padding: 2px 16px;
+    line-height: 26px;
     text-decoration: none;
     color: #5a5a5a;
 }
@@ -220,23 +243,30 @@ h1 {
 #emailBody .drop_in_button.dadi_di_button_medium a {
     font-size: 18px;
     padding: 12px 40px;
-    line-height: 60px;
+    line-height: 26px;
     border-radius: 3px;
 }
 #emailBody .drop_in_button.dadi_di_button_large,
 #emailBody .drop_in_button.dadi_di_button_large a {
     font-size: 20px;
     padding: 15px 50px;
-    line-height: 80px;
+    line-height: 30px;
     border-radius: 3px;
 }
 #emailBody .drop_in_button.dadi_di_button_huge,
 #emailBody .drop_in_button.dadi_di_button_huge a {
     font-size: 26px;
     padding: 20px 60px;
-    line-height: 120px;
+    line-height: 40px;
     border-radius: 6px;
     font-weight: 700;
+}
+
+/* switch to inline block for the line-height TODO check with litmus */
+#emailBody .drop_in_button.dadi_di_button_fullleft a,
+#emailBody .drop_in_button.dadi_di_button_fullcenter a,
+#emailBody .drop_in_button.dadi_di_button_fullright a {
+    display: inline-block;
 }
 
 #emailBody .drop_in_button.dadi_di_button_transparent a {
@@ -287,27 +317,35 @@ h1 {
     border-radius: 0;
 }
 
+
+/* --------------- */
 /* SNIPPET OPTIONS */
+/* --------------- */
 .dadi_sb_bg_lightgrey .flexibleContainerCell,
 .dadi_sb_fg_lightgrey .flexibleContainerCell .nestedContainerCell {
-    background-color: #eaeaeb;
+    background-color: #f9f9f9;
+}
+
+.dadi_sb_bg_grey .flexibleContainerCell,
+.dadi_sb_fg_grey .flexibleContainerCell .nestedContainerCell {
+    background-color: #b8aa8d;
 }
 
 .dadi_sb_bg_orange .flexibleContainerCell,
 .dadi_sb_fg_orange .flexibleContainerCell .nestedContainerCell {
-    background-color: #f49800;
+    background-color: #f4e485;
     color: white;
 }
 
 .dadi_sb_bg_pink .flexibleContainerCell,
 .dadi_sb_fg_pink .flexibleContainerCell .nestedContainerCell {
-    background-color: #b32986;
+    background-color: #fb8dca;
     color: white;
 }
 
 .dadi_sb_bg_blue .flexibleContainerCell,
 .dadi_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
-    background-color: #407cca;
+    background-color: #cae0f7;
     color: white;
 }
 
@@ -321,7 +359,9 @@ h1 {
 }
 
 
+/* ---------- */
 /* RESPONSIVE */
+/* ---------- */
 @media (max-width: 414px) {
     body p,
     body h1, body h2, body h3, body h4, body h5, body h6 {
