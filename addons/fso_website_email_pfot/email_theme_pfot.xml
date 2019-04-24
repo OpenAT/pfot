@@ -38,6 +38,11 @@
     <!-- ATTENTION: At least one local css <link> or inline <style> tag  (even if just empty) MUST exist in an assets template -->
     <template id="email_theme_pfot_assets">
         <link href='/fso_website_email_pfot/static/src/css/email_theme_pfot.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_pfot/static/src/css/email_theme_pfot_snippets.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_pfot/static/src/css/email_theme_pfot_snippets_buttons.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        
+        <link href='/fso_website_email_pfot/static/src/css/email_theme_pfot_responsive.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_pfot/static/src/css/email_theme_pfot_snippets_buttons_responsive.css' rel='stylesheet' type='text/css' t-ignore="true"/>
     </template>
     
     <!-- THEME 'pfot' ASSETS EDITMODE -->
@@ -343,7 +348,7 @@
 
             <!-- TEMPLATE SETTINGS -->
             <!-- ================= -->
-            <t t-set="load_default_theme" t-value="True"/>
+            <t t-set="load_theme_framework" t-value="True"/>
             <!-- ================= -->
 
             <head>
@@ -388,8 +393,17 @@
                             <!-- PFOT HEADER -->
                             <tr>
                                 <td id='pfot_header' class="headerCell ckediting_disabled" align="center">
-    
-                                    <t t-call="fso_website_email_pfot.email_theme_pfot_header"/>
+                                    
+                                    <table id="pfot_header_body" class="ckediting_disabled" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="ckediting_disabled" align="center" valign="top">
+
+                                                <!-- CONTENT ('html_body' field of email.template) -->
+                                                <t t-call="fso_website_email_pfot.email_theme_pfot_header"/>
+
+                                            </td>
+                                        </tr>
+                                    </table>
                                     
                                 </td>
                             </tr>
@@ -410,6 +424,7 @@
                                             </td>
                                         </tr>
                                     </table>
+                                    
                                 </td>
                             </tr>
 
@@ -417,7 +432,15 @@
                             <tr>
                                 <td id='pfot_footer' align="center" class="footerCell ckediting_disabled">
                                     
-                                    <t t-call="fso_website_email_pfot.email_theme_pfot_footer"/>
+                                    <table id="pfot_footer_body" class="ckediting_disabled" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="ckediting_disabled" align="center" valign="top">
+
+                                                <t t-call="fso_website_email_pfot.email_theme_pfot_footer"/>
+
+                                            </td>
+                                        </tr>
+                                    </table>
                                     
                                 </td>
                             </tr>

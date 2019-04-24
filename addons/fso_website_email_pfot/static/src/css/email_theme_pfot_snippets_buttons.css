@@ -1,0 +1,80 @@
+/*
+    ==============
+    drop_in_button
+    ==============
+*/
+#emailBody span.drop_in_button a {
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid #dcdcdc;
+    color: #5a5a5a;
+}
+
+
+/* BUTTON SIZE */
+#emailBody span.drop_in_button.dadi_di_button_medium,
+#emailBody span.drop_in_button.dadi_di_button_medium a {
+    font-size: 18px;
+    border-radius: 0;
+}
+#emailBody span.drop_in_button.dadi_di_button_large,
+#emailBody span.drop_in_button.dadi_di_button_large a {
+    font-size: 20px;
+    border-radius: 0;
+}
+#emailBody span.drop_in_button.dadi_di_button_huge,
+#emailBody span.drop_in_button.dadi_di_button_huge a {
+    font-size: 26px;
+    border-radius: 0;
+}
+
+
+/* BUTTON COLOR */
+#emailBody span.drop_in_button.dadi_di_button_transparent a {
+    background-color: transparent;
+}
+#emailBody span.drop_in_button.dadi_di_button_black a {
+    background-color: #000000;
+    color: white;
+}
+#emailBody span.drop_in_button.dadi_di_button_green a {
+    background-color: #94c03d;
+    color: white;
+}
+#emailBody span.drop_in_button.dadi_di_button_yellow a {
+    background-color: #f4e485;
+    color: #5a5a5a;
+}
+#emailBody span.drop_in_button.dadi_di_button_red a {
+    background-color: #c41501;
+    color: white;
+}
+#emailBody span.drop_in_button.dadi_di_button_blue a {
+    background-color: #cae0f7;
+    color: #5a5a5a;
+    border-color: #cae0f7;
+}
+#emailBody span.drop_in_button.dadi_di_button_orange a {
+    background-color: #f49800;
+    color: white;
+    border-color: #f49800;
+}
+#emailBody span.drop_in_button.dadi_di_button_pink a {
+    background-color: #b32986;
+    color: white;
+    border-color: #b32986;
+}
+
+
+span.drop_in_button.dadi_di_button_medium,
+span.drop_in_button.dadi_di_button_medium a {
+    border-radius: 0;
+}
+span.drop_in_button.dadi_di_button_large,
+span.drop_in_button.dadi_di_button_large a {
+    border-radius: 0;
+}
+span.drop_in_button.dadi_di_button_huge,
+span.drop_in_button.dadi_di_button_huge a {
+    border-radius: 0;
+}

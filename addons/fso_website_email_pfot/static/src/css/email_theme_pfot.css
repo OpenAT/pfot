@@ -10,15 +10,25 @@ html body #wrapwrap {
 .headerCell {
     font-size: 12px;
 }
+
 #open_in_browser {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-/* pfot header */
+
+/*
+    ===========
+    pfot header
+    ===========
+*/
 #pfot_header {
     padding-top: 0;
     padding-bottom: 0;
+    margin: 0;
+    /* fix for older outlooks (cant use height) */
+    min-height: 87px;
+    max-height: 87px;
 }
 #pfot_header .contentTable {
     background-color: #d90000;
@@ -39,22 +49,29 @@ html body #wrapwrap {
 #pfot_header table.flexibleContainerRight .textContent {
     padding: 15px 20px;
 }
-@media only screen and (max-width: 480px) {
-  #pfot_header {
-    display: none!important;
-    }
-}
 
-/* body */
+
+/*
+    ====
+    body
+    ====
+*/
 #bodyCell {
     padding-top: 0;
     padding-bottom: 0;
 }
 
-/* pfot footer */
+
+/*
+    ===========
+    pfot footer
+    ===========
+*/
 #pfot_footer {
     font-size: 11px;
     line-height: 13px;
+    /* Fix for Aplle iOS clients */
+    padding-bottom: 60px;
 }
 #pfot_footer .contentTable a {
     color: #bbbbbb;
@@ -86,56 +103,19 @@ html body #wrapwrap {
 /* ------------------------------- */
 /* PFOT SIZING FOR 650 PIXEL WIDTH */
 /* ------------------------------- */
-#emailBody {
+#pfot_header_body, #emailBody, #pfot_footer_body {
     width: 650px;
 }
-
-/* Snippets */
-.flexibleContainer {
-    width: 650px;
-}
-
-.snippet_block_text_twocol .flexibleContainerRight,
-.snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
-    width: 295px;
-}
-.snippet_block_text_twocol .flexibleContainerLeft,
-.snippet_block_text_twocol .flexibleContainerLeft .flexibleImage {
-    width: 295px;
-}
-.snippet_block_text_threecol .flexibleContainer33,
-.snippet_block_text_threecol .flexibleContainer33 .flexibleImage {
-    width: 190px;
-}
-
-.snippet_block_text_image_left .flexibleContainerRight,
-.snippet_block_text_image_left .flexibleContainerRight .flexibleImage {
-    width: 390px;
-}
-.snippet_block_text_image_right .flexibleContainerLeft,
-.snippet_block_text_image_right .flexibleContainerLeft .flexibleImage {
-    width: 390px;
-}
-.snippet_block_banner .flexibleImage,
-.snippet_block_banner.dadi_sb_bg_normal .flexibleImage {
-    width: 610px;
-    max-width: 610px;
-}
-.snippet_block_banner.dadi_sb_bg_full .flexibleImage {
-    width: 650px;
-    max-width: 650px;
-}
-.snippet_block_banner.dadi_sb_bg_narrow .flexibleImage {
-    width: 570px;
-    max-width: 570px;
+#pfot_header_body, #pfot_footer_body {
+    margin: 0 auto;
 }
 
 
 /* ---------- */
 /* Typography */
 /* ---------- */
-body {
-    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', 'Segoe UI', 'Dejavu Sans', Helvetica, Arial, sans-serif;
+p, td, a, div, span {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 18px;
     color: #5a5a5a;
@@ -164,7 +144,7 @@ h1, h2, h3 {
 }
 .h1, .h2, .h3, .h4, .h5, .h6,
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', 'Segoe UI', 'Dejavu Sans', Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, sans-serif;
     line-height: 140%;
     color: #c41501;
 
@@ -211,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 8px;
 }
 .pfot_title {
-    font-family: "Myriad Pro", Myriad, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', 'Segoe UI', 'Dejavu Sans', Helvetica, Arial, sans-serif;
+    /*font-family: 'Myriad Pro', Myriad, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', 'Segoe UI', 'Dejavu Sans', Helvetica, Arial, sans-serif;*/
     font-size: 18px;
     font-weight: bold;
     color: white;
@@ -226,170 +206,5 @@ blockquote {
 }
 
 
-/* ------- */
-/* BUTTONS */
-/* ------- */
-#emailBody .drop_in_button a {
-    display: block;
-    border-radius: 0;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: 2px 16px;
-    line-height: 26px;
-    text-decoration: none;
-    color: #5a5a5a;
-}
-#emailBody .drop_in_button.dadi_di_button_medium,
-#emailBody .drop_in_button.dadi_di_button_medium a {
-    font-size: 18px;
-    padding: 12px 40px;
-    line-height: 26px;
-    border-radius: 3px;
-}
-#emailBody .drop_in_button.dadi_di_button_large,
-#emailBody .drop_in_button.dadi_di_button_large a {
-    font-size: 20px;
-    padding: 15px 50px;
-    line-height: 30px;
-    border-radius: 3px;
-}
-#emailBody .drop_in_button.dadi_di_button_huge,
-#emailBody .drop_in_button.dadi_di_button_huge a {
-    font-size: 26px;
-    padding: 20px 60px;
-    line-height: 40px;
-    border-radius: 6px;
-    font-weight: 700;
-}
-
-/* switch to inline block for the line-height TODO check with litmus */
-#emailBody .drop_in_button.dadi_di_button_fullleft a,
-#emailBody .drop_in_button.dadi_di_button_fullcenter a,
-#emailBody .drop_in_button.dadi_di_button_fullright a {
-    display: inline-block;
-}
-
-#emailBody .drop_in_button.dadi_di_button_transparent a {
-    background-color: transparent;
-}
-#emailBody .drop_in_button.dadi_di_button_black a {
-    background-color: #000000;
-}
-#emailBody .drop_in_button.dadi_di_button_green a {
-    background-color: #94c03d;
-    color: white;
-}
-#emailBody .drop_in_button.dadi_di_button_yellow a {
-    background-color: #f4e485;
-    color: #5a5a5a;
-}
-#emailBody .drop_in_button.dadi_di_button_red a {
-    background-color: #c41501;
-    color: white;
-}
-#emailBody .drop_in_button.dadi_di_button_blue a {
-    background-color: #cae0f7;
-    color: #5a5a5a;
-    border-color: #cae0f7;
-}
-#emailBody .drop_in_button.dadi_di_button_orange a {
-    background-color: #f49800;
-    color: white;
-    border-color: #f49800;
-}
-#emailBody .drop_in_button.dadi_di_button_pink a {
-    background-color: #b32986;
-    color: white;
-    border-color: #b32986;
-}
 
 
-.drop_in_button.dadi_di_button_medium,
-.drop_in_button.dadi_di_button_medium a {
-    border-radius: 0;
-}
-.drop_in_button.dadi_di_button_large,
-.drop_in_button.dadi_di_button_large a {
-    border-radius: 0;
-}
-.drop_in_button.dadi_di_button_huge,
-.drop_in_button.dadi_di_button_huge a {
-    border-radius: 0;
-}
-
-
-/* --------------- */
-/* SNIPPET OPTIONS */
-/* --------------- */
-.dadi_sb_bg_lightgrey .flexibleContainerCell,
-.dadi_sb_fg_lightgrey .flexibleContainerCell .nestedContainerCell {
-    background-color: #f9f9f9;
-}
-
-.dadi_sb_bg_grey .flexibleContainerCell,
-.dadi_sb_fg_grey .flexibleContainerCell .nestedContainerCell {
-    background-color: #b8aa8d;
-}
-
-.dadi_sb_bg_orange .flexibleContainerCell,
-.dadi_sb_fg_orange .flexibleContainerCell .nestedContainerCell {
-    background-color: #f4e485;
-    color: white;
-}
-
-.dadi_sb_bg_pink .flexibleContainerCell,
-.dadi_sb_fg_pink .flexibleContainerCell .nestedContainerCell {
-    background-color: #fb8dca;
-    color: white;
-}
-
-.dadi_sb_bg_blue .flexibleContainerCell,
-.dadi_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
-    background-color: #cae0f7;
-    color: white;
-}
-
-.dadi_sb_fg_pink .flexibleContainerCell .nestedContainerCell,
-.dadi_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 3px;
-}
-
-
-/* ---------- */
-/* RESPONSIVE */
-/* ---------- */
-@media (max-width: 414px) {
-    body p,
-    body h1, body h2, body h3, body h4, body h5, body h6 {
-        font-size: inherit;
-    }
-    body h1 {
-        font-size: 26px;
-        padding-bottom: 12px;
-        font-weight: 700;
-    }
-    .h2, body h2 {
-        font-size: 24px;
-        font-weight: 700;
-    }
-    .h3, body h3 {
-        font-size: 18px;
-        font-weight: 300;
-    }
-    .h4, body h4 {
-        font-size: 16px;
-        font-weight: 300;
-    }
-    .h5, body h5 {
-        font-size: 14px;
-        font-weight: 300;
-    }
-    .h6, body h6 {
-        font-size: 12px;
-        font-weight: 300;
-    }
-}
