@@ -81,7 +81,11 @@ html body #wrapwrap {
     width: 50%;
 }
 
-
+#pfot_footer .pfot_footer_social p,
+#pfot_footer .pfot_footer_social a {
+    font-size: 11px;
+    /*line-height: 13px;*/
+}
 #pfot_footer .pfot_footer_social .flexibleContainer {
     border-top: 1px solid #dddddd;
     background-color: white;
@@ -97,7 +101,11 @@ html body #wrapwrap {
 #pfot_footer .pfot_footer_info .flexibleContainerLeft .textContent {
     padding-top: 10px;
 }
-
+#pfot_footer .pfot_footer_info p,
+#pfot_footer .pfot_footer_info a {
+    font-size: 11px;
+    line-height: 13px;
+}
 
 
 /* ------------------------------- */
@@ -115,7 +123,8 @@ html body #wrapwrap {
 /* Typography */
 /* ---------- */
 p, td, a, div, span {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, sans-serif;*/
+    font-family: HelveticaNeue-Light, HelveticaNeue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 18px;
     color: #5a5a5a;
@@ -144,7 +153,8 @@ h1, h2, h3 {
 }
 .h1, .h2, .h3, .h4, .h5, .h6,
 h1, h2, h3, h4, h5, h6 {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, sans-serif;*/
+    font-family: HelveticaNeue-Light, HelveticaNeue, Helvetica, Arial, sans-serif;
     line-height: 140%;
     color: #c41501;
 
@@ -168,22 +178,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 .h2, h2 {
     font-size: 24px;
+    padding-bottom: 12px;
     font-weight: 700;
 }
 .h3, h3 {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 12px;
+}
+.h4, h4 {
     font-size: 18px;
     font-weight: 300;
 }
-.h4, h4 {
+.h5, h5 {
     font-size: 16px;
     font-weight: 300;
 }
-.h5, h5 {
-    font-size: 14px;
-    font-weight: 300;
-}
 .h6, h6 {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -191,7 +203,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 8px;
 }
 .pfot_title {
-    /*font-family: 'Myriad Pro', Myriad, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', 'Segoe UI', 'Dejavu Sans', Helvetica, Arial, sans-serif;*/
     font-size: 18px;
     font-weight: bold;
     color: white;

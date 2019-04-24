@@ -4,7 +4,7 @@
     ==============
 */
 #emailBody span.drop_in_button a {
-    border-radius: 0;
+    border-radius: 3px;
     background-color: transparent;
     border: 1px solid #dcdcdc;
     color: #5a5a5a;
@@ -15,17 +15,25 @@
 #emailBody span.drop_in_button.dadi_di_button_medium,
 #emailBody span.drop_in_button.dadi_di_button_medium a {
     font-size: 18px;
-    border-radius: 0;
+    border-radius: 3px;
 }
+
 #emailBody span.drop_in_button.dadi_di_button_large,
 #emailBody span.drop_in_button.dadi_di_button_large a {
     font-size: 20px;
-    border-radius: 0;
+    border-radius: 4px;
 }
+#emailBody span.drop_in_button.dadi_di_button_large a {
+    padding: 0.75em 3.5em;
+}
+
 #emailBody span.drop_in_button.dadi_di_button_huge,
 #emailBody span.drop_in_button.dadi_di_button_huge a {
-    font-size: 26px;
-    border-radius: 0;
+    font-size: 20px;
+    border-radius: 4px;
+}
+#emailBody span.drop_in_button.dadi_di_button_huge a {
+    padding: 0.8em 4.5em;
 }
 
 
@@ -66,15 +74,4 @@
 }
 
 
-span.drop_in_button.dadi_di_button_medium,
-span.drop_in_button.dadi_di_button_medium a {
-    border-radius: 0;
-}
-span.drop_in_button.dadi_di_button_large,
-span.drop_in_button.dadi_di_button_large a {
-    border-radius: 0;
-}
-span.drop_in_button.dadi_di_button_huge,
-span.drop_in_button.dadi_di_button_huge a {
-    border-radius: 0;
-}
+
