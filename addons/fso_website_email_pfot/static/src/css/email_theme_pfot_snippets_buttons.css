@@ -8,6 +8,7 @@
     background-color: transparent;
     border: 1px solid #dcdcdc;
     color: #5a5a5a;
+    text-align: center;
 }
 
 
@@ -50,7 +51,7 @@
     color: white;
 }
 #emailBody span.drop_in_button.dadi_di_button_yellow a {
-    background-color: #ffde5e;
+    background-color: #f8dd70;
     color: #5a5a5a;
 }
 #emailBody span.drop_in_button.dadi_di_button_red a {
