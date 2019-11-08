@@ -5,6 +5,7 @@
     <template id="website_pfoh.theme" name="website_pfoh Theme" inherit_id="website.theme">
         <xpath expr="//link[last()]" position="after">
             <link rel="stylesheet" href='/website_pfoh/static/src/css/website_less.css' t-ignore="true"/>
+            <link rel="stylesheet" href='/website_pfoh/static/src/css/subscriptions.css' t-ignore="true"/>
         </xpath>
     </template>
 

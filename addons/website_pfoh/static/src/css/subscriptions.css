@@ -1,0 +1,17 @@
+.fso_subscription_wrap .progress {
+    height: 44px;
+}
+
+.fso_subscription_wrap .progress-bar {
+    line-height: 44px;
+    min-width: 12px;
+}
+
+#description_sale {
+    margin-top: 1em;
+}
+
+body .oe_website_sale .crowdfunding h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
