@@ -43,6 +43,7 @@ Custom Newsletter-Theme for Pfot based on the website design.
     ],
     'data': [
         'email_theme_pfot.xml',
+        'email_theme_pfot_basic.xml',
     ],
     'qweb': [
     ],
