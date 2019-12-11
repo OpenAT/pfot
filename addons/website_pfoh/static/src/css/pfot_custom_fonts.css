@@ -1,0 +1,68 @@
+/* FONT TESTS */
+/* HEADLINES*/
+@font-face {
+    font-family: HernandezNiu;
+    src: url("fonts/headfonts/HernandezNiu-Regular.otf") format("opentype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: HernandezNiu;
+    src: url("fonts/headfonts/HernandezNiu-Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: HernandezNiu;
+    src: url("fonts/headfonts/HernandezNiu-BoldItalic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: HernandezNiu;
+    src: url("fonts/headfonts/HernandezNiu-Heavy.otf") format("opentype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: HernandezNiu;
+    src: url("fonts/headfonts/HernandezNiu-HeavyItalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: HernandezNiu;
+    src: url("fonts/headfonts/HernandezNiu-UltraBold.otf") format("opentype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: HernandezNiu;
+    src: url("fonts/headfonts/HernandezNiu-UltraBoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: HernandezNiu;
+    src: url("fonts/headfonts/HernandezNiu-BoldItalic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: HernandezNiu;
+    src: url("fonts/headfonts/HernandezNiu-italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: NoyhGeometric;
+    src: url("fonts/textfonts/NoyhGeometric-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: NoyhGeometric;
+    src: url("fonts/textfonts/NoyhGeometric-Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: NoyhGeometric;
+    src: url("fonts/textfonts/NoyhGeometric-Light.otf") format("opentype");
+    font-weight: light;
+}

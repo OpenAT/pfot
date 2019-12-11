@@ -4,11 +4,50 @@
     <!-- Add custom css to website Theme -->
     <template id="website_pfoh.theme" name="website_pfoh Theme" inherit_id="website.theme">
         <xpath expr="//link[last()]" position="after">
+            <link rel='stylesheet' href='/website_pfoh/static/src/css/pfot_custom_fonts.css' t-ignore="true"/>
             <link rel="stylesheet" href='/website_pfoh/static/src/css/website_less.css' t-ignore="true"/>
             <link rel="stylesheet" href='/website_pfoh/static/src/css/subscriptions.css' t-ignore="true"/>
+            <!-- Website relaunch css TEST -->
+            <!--<link rel="stylesheet" href='/website_pfoh/static/src/css/pfoh_relaunch.css'/>-->
         </xpath>
     </template>
 
+     <template id="pfoh_relauch_custom_css" inherit_id="website.layout" name="Pfot Relauch Custom CSS">
+         <xpath expr="//head" position="inside">
+             <t t-if="'pfot-relaunch-css' in request.httprequest.query_string">
+                 <link rel="stylesheet" href='/website_pfoh/static/src/css/pfoh_relaunch.css'/>
+             </t>
+         </xpath>
+     </template>
+ <!-- Frage MIKE ob das KORREKT IST  -->
+   <template id="pfoh_assets_editor" inherit_id="website.assets_editor" name="Pfot Editor assets">
+       <xpath expr="." position="inside">
+           <script type="text/javascript" src="/website_pfoh/static/src/js/pfot_ckeditor.js"></script>
+       </xpath>
+   </template>
+
+<!--
+     <template id="layout_badge_show" inherit_id="website.layout" customize_show="True" name="Zeige Spenden Badge">
+         <xpath expr="//header//div[@class='navbar navbar-default navbar-static-top']" position="attributes">
+             <attribute name="class">navbar navbar-default navbar-static-top MenuDonationBadge</attribute>
+             <attribute name="data-badge">Sofort Spenden</attribute>
+         </xpath>
+     </template>
+-->
+ <!--
+ <template id="layout_badge_show" inherit_id="website.layout" customize_show="True" name="Zeige Spenden Badge">
+     <xpath expr="//body]" position="after">
+         <div class="MenuDonationBadge">
+                     <img src="https://lorempixel.com/400/260/nature/1/" class="img-responsive" alt=""></img>
+                     <a href="#" class="badge-image">
+                         <span class="badge-inner"></span>
+                     </a>
+         </div>
+     </xpath>
+ </template>
+ -->
+    
+    
     <template id="assets_frontend" inherit_id="website.assets_frontend" name="pfoh theme">
         <xpath expr="." position="inside">
             <script src="/website_pfoh/static/src/js/pfoh.js"></script>
@@ -58,6 +97,12 @@
             <!-- End Facebook Pixel Code -->
         </xpath>
     </template>
+        <template id="CKeditor_override_Website_Theme">
+                <!-- Override CKEditor Settings -->
+        <script src='/website_pfoh/static/src/js/pfot_ckeditor.js' type='text/javascript' t-ignore="true"/>
+
+    </template>
+
 <!--
     <template id="website_pfoh.theme" name="website_pfoh Theme" inherit_id="website.theme">
         <xpath expr="//link[last()]" position="after">
