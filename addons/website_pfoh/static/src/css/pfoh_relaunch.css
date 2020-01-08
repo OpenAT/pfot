@@ -1,9 +1,86 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto Slab:400,700|Roboto:400,500&display=swap');
 /* Pfot Website Relaunch CSS
  Load this css by adding pfot-relaunch-css in the query string
- e.g.: https://care.datadialog.net/?pfot-relaunch-css
+ e.g.: https://pfot.datadialog.net/?pfot-relaunch-css
  ATTENTION: Add this to the frontend asset at the relaunch day to permanently include and minify the css!
  */
+/* link allgemein */
+a {
+  color: #50646a;
+}
+a:active {
+  color: #e50046;
+}
+/* Buttons */
+.my_cart_quantity.label.label-primary {
+  background-color: #50646a;
+}
+.btn-link {
+  color: #50646a;
+}
+.btn-default {
+  background-color: #50646a;
+  border-color: #50646a;
+  color: white;
+}
+a.btn-default:hover {
+  background-color: #50646a;
+  border-color: #50646a;
+  color: #ffdf43;
+}
+.btn-primary {
+  background-color: #50646a;
+  border-color: #50646a;
+  color: white;
+}
+#website_cookie_notice .btn-primary {
+  background-color: #50646a;
+  border-color: #50646a;
+  color: white;
+}
+#website_cookie_notice a.btn.btn-primary:hover {
+  background-color: #50646a;
+  border-color: #50646a;
+  color: #ffdf43;
+}
+main a.btn.btn-primary:hover {
+  background-color: #50646a;
+  border-color: #50646a;
+  color: #ffdf43;
+}
+/* shop category overview */
+#products_grid_before .nav-pills > li.active > a {
+  color: #ffffff;
+  background-color: #50646a;
+}
+#products_grid_before .nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffdf43;
+  background-color: #50646a;
+}
+/* Pagination */
+.pagination > .active > a,
+.pagination > .active > span {
+  color: #ffffff;
+  background-color: #50646a;
+  border-color: #50646a;
+}
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  color: #ffdf43;
+  background-color: #50646a;
+  border-color: #50646a;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #ffdf43;
+  background-color: #50646a;
+  border-color: #50646a;
+}
 #wrapwrap .navbar-default {
   background-color: white;
 }
@@ -13,7 +90,7 @@
 }
 #wrapwrap .navbar-static-top header .navbar-default .navbar-nav .open .dropdown-menu > li > a,
 #wrapwrap .navbar-static-bottom header .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-  color: black;
+  color: #222222;
 }
 #wrapwrap .navbar-static-top header .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 #wrapwrap .navbar-static-bottom header .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
@@ -37,7 +114,7 @@ header .navbar-default .navbar-nav > .active > a {
   color: darkgrey;
 }
 header .navbar-default .navbar-nav > li > a {
-  color: Black;
+  color: #222222;
 }
 .navbar-nav > li > a {
   border: 0px solid transparent;
@@ -46,29 +123,29 @@ header .navbar-default .navbar-nav > li > a {
 }
 /*
  header .navbar-nav>li>a:visited {
-   color: black;
-   border-color: black;
+   color: #222222;
+   border-color: #222222;
  }*/
 #wrapwrap > footer > div.container.mt16.mb8 > div.pull-right > a.label.label-danger {
-  background-color: black;
+  background-color: #222222;
 }
 header .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:hover:visited,
 .navbar-default .navbar-nav > li > a:focus .navbar-default {
-  color: black;
+  color: #222222;
   border-color: none;
   border: none;
 }
 header .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: Black;
+  color: #222222;
   border-color: none;
   border: none;
 }
 header .dropdown-menu .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: black;
+  color: #222222;
 }
 header .dropdown-menu {
   background-color: white;
@@ -76,12 +153,12 @@ header .dropdown-menu {
   border-radius: 0px;
 }
 header .dropdown-menu > li > a {
-  color: black;
+  color: #222222;
 }
 header .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: black;
+  color: #222222;
 }
 header .dropdown-menu > li > a:hover,
 header .dropdown-menu > li > a:focus {
@@ -105,6 +182,9 @@ body {
 #wrap section > div.container > div > div.col-md-12 {
   background-color: white;
 }
+/*#wrap > section > div.container > div.row {
+    background-color: white;
+ }*/
 /*#wrap > section > div > div.row {
    background-color: white;
  }*/
@@ -146,7 +226,7 @@ body {
 div.carousel div.carousel-content {
   background: transparent;
   background-color: rgba(255, 255, 255, 0.8);
-  color: black;
+  color: #222222;
 }
 /*#wrap > section > div > div.row {
    background-color: white;
@@ -181,7 +261,7 @@ div.carousel div.carousel-content {
  }
  */
 #footer .container {
-  background-color: black;
+  background-color: #222222;
 }
 #footer > section.mb0.mt0 > div > div > div > div.oe_share a i {
   color: #ffdf43 !important;
@@ -201,7 +281,7 @@ div.carousel div.carousel-content {
 /* ---- CONTENT FOOTER ---- */
 footer {
   color: white !important;
-  background-color: black;
+  background-color: #222222;
 }
 footer a {
   color: #e50046 !important;
@@ -219,7 +299,22 @@ footer span {
   color: white !important;
 }
 footer section .container > div div.col-md-4 {
-  background-color: black;
+  background-color: #222222;
+}
+/* Form Controls */
+.form-control:focus {
+  border-color: #e50046;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(229, 0, 70, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(229, 0, 70, 0.6);
+}
+.price_donate .form-control {
+  color: #50646a;
+}
+/* Spendenbox SBS */
+h2,
+h4.payment_interval_ids {
+  color: #222222;
 }
 .btn-primary,
 .btn,

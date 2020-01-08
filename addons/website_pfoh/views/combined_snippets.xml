@@ -1,0 +1,122 @@
+<openerp>
+<data>
+
+    <!-- 3erSnippet Pfotenhilfe Combined inklusive GroupStructure Snippet -->
+    <template id="website_pfot_snippets" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']" postition="inside">
+
+            <div>
+                <div class="oe_snippet_thumbnail">
+                    <img class="oe_snippet_thumbnail_img" src="/website_pfoh/static/src/img/extended_3er.png"/>
+                    <span class="oe_snippet_thumbnail_title">extended 3er</span>
+                </div>
+                <section class="oe_snippet_body mt16 mb16">
+                    <div id="extended_3er" class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="snippet_content_group">
+                                    <div class="snippet_content_group_outer">
+                                        <div class="snippet_content_group_inner">
+                                            <img class="img img-rounded img-responsive"
+                                                 data-cke-saved-src="/website/static/src/img/desert_thumb.jpg"
+                                                 src="/website/static/src/img/desert_thumb.jpg"
+                                                 alt="Odoo - Sample 1 for three columns"
+                                                 style=""/>
+                                            <h4 class="mt16">Funktion 1</h4>
+                                            <p>Passen Sie diese drei Spalten an, um Ihre Designvorstellung umzusetzen.
+                                                Um eine
+                                                Spalte zu
+                                                duplizieren, zu löschen oder zu verschieben, wählen Sie die Spalte aus
+                                                und
+                                                verwenden Sie
+                                                die Icons in der Symbolleiste, um die Aktion durchzuführen.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="snippet_content_group">
+                                    <div class="snippet_content_group_outer">
+                                        <div class="snippet_content_group_inner">
+                                            <img class="img img-rounded img-responsive"
+                                                 data-cke-saved-src="/website/static/src/img/deers_thumb.jpg"
+                                                 src="/website/static/src/img/deers_thumb.jpg"
+                                                 alt="Odoo - Sample 2 for three columns"
+                                                 style=""/>
+                                            <h4 class="mt16">Zweites Feature</h4>
+                                            <p>Um eine vierte Spalte zu ergänzen, reduzieren Sie zuerst die Größe der
+                                                drei
+                                                Blöcke durch
+                                                verschieben des rechten Rands nach links. Außerdem duplizieren Sie dann
+                                                eine
+                                                vorhandene
+                                                Spalte, um eine weitere neue Spalte als Kopie zu erzeugen.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="snippet_content_group">
+                                    <div class="snippet_content_group_outer">
+                                        <div class="snippet_content_group_inner">
+                                            <img class="img img-rounded img-responsive"
+                                                 data-cke-saved-src="/website/static/src/img/china_thumb.jpg"
+                                                 src="/website/static/src/img/china_thumb.jpg"
+                                                 alt="Odoo - Sample 3 for three columns"
+                                                 style=""/>
+                                            <h4 class="mt16">Funktion 3</h4>
+                                            <p>Löschen Sie das obige Bild oder ersetzen Sie es durch ein zur Nachricht
+                                                passendes
+                                                Bild.
+                                                Klicken Sie auf das Bild, für eine entsprechende Anpassung. <em>
+                                                    abgerundete
+                                                </em> Style.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+
+    </template>
+
+    <template id="website_pfot_snippet_options" inherit_id="fso_base_website.snippet_group_box">
+
+        <xpath expr="//li[@data-value='gso_bgcol_red']" position="after">
+            <li data-value="gso_bg_col_pfotblack">
+                <a>Schwarz</a>
+            </li>
+            <li data-value="gso_bg_col_pfotyellow">
+                <a>Gelb</a>
+            </li>
+            <li data-value="gso_bg_col_pfotred">
+                <a>Rot</a>
+            </li>
+            <li data-value="gso_bg_col_pfotgrey">
+                <a>Grau</a>
+            </li>
+        </xpath>
+        <xpath expr="//li[@data-value='gso_fgcol_blue']" position="after">
+            <li data-value="gso_fg_col_pfotblackblack">
+                <a>Schwarz</a>
+            </li>
+            <li data-value="gso_fg_col_pfotyellow">
+                <a>Gelb</a>
+            </li>
+            <li data-value="gso_bg_col_pfotred">
+                <a>Rot</a>
+            </li>
+            <li data-value="gso_bg_col_pfotgrey">
+                <a>Grau</a>
+            </li>
+        </xpath>
+    </template>
+
+</data>
+</openerp>

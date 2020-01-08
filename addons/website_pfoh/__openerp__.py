@@ -46,6 +46,7 @@ Anpassungen an CSS, Snippets, Images und alles was zum CMS gehört.
         'static/src/xml/website_templates.xml',
         #'views/snippets.xml',
         'views/snippet_options.xml',
+        'views/combined_snippets.xml',
         'views/contact_form.xml',
     ],
 }
