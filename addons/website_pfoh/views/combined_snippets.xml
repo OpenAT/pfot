@@ -89,31 +89,37 @@
     <template id="website_pfot_snippet_options" inherit_id="fso_base_website.snippet_group_box">
 
         <xpath expr="//li[@data-value='gso_bgcol_red']" position="after">
-            <li data-value="gso_bg_col_pfotblack">
+            <li data-value="gso_bgcol_pfotblack">
                 <a>Schwarz</a>
             </li>
-            <li data-value="gso_bg_col_pfotyellow">
+            <li data-value="gso_bgcol_pfotyellow">
                 <a>Gelb</a>
             </li>
-            <li data-value="gso_bg_col_pfotred">
+            <li data-value="gso_bgcol_pfotred">
                 <a>Rot</a>
             </li>
-            <li data-value="gso_bg_col_pfotgrey">
-                <a>Grau</a>
+            <li data-value="gso_bgcol_pfotgrey">
+                <a>Pfotgrau</a>
+            </li>
+            <li data-value="gso_bgcol_white">
+                <a>Weiss</a>
             </li>
         </xpath>
         <xpath expr="//li[@data-value='gso_fgcol_blue']" position="after">
-            <li data-value="gso_fg_col_pfotblackblack">
+            <li data-value="gso_fgcol_pfotblack">
                 <a>Schwarz</a>
             </li>
-            <li data-value="gso_fg_col_pfotyellow">
+            <li data-value="gso_fgcol_pfotyellow">
                 <a>Gelb</a>
             </li>
-            <li data-value="gso_bg_col_pfotred">
+            <li data-value="gso_fgcol_pfotred">
                 <a>Rot</a>
             </li>
-            <li data-value="gso_bg_col_pfotgrey">
-                <a>Grau</a>
+            <li data-value="gso_fgcol_pfotgrey">
+                <a>Pfotgrau</a>
+            </li>
+            <li data-value="gso_fgcol_white">
+                <a>Weiss</a>
             </li>
         </xpath>
     </template>

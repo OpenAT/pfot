@@ -4,6 +4,101 @@
  e.g.: https://pfot.datadialog.net/?pfot-relaunch-css
  ATTENTION: Add this to the frontend asset at the relaunch day to permanently include and minify the css!
  */
+/* BASIC COLOR DEFINITION */
+/* Snippet Structure Group */
+.snippet_structure_group .snippet_structure_group_inner {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  /* default BG Color for new structure */
+  background-color: white;
+}
+.gso_bgcol_pfotyellow .snippet_structure_group_outer {
+  background-color: #ffdf43;
+  color: #222222;
+}
+.gso_bgcol_pfotgrey .snippet_structure_group_outer {
+  background-color: #50646a;
+  color: white;
+}
+.gso_bgcol_pfotblack .snippet_structure_group_outer {
+  background-color: #222222;
+  color: white;
+}
+.gso_bgcol_pfotred .snippet_structure_group_outer {
+  background-color: #e50046;
+  color: white;
+}
+.gso_bgcol_white .snippet_structure_group_outer {
+  background-color: white;
+  color: #222222;
+}
+.gso_fgcol_pfotyellow .snippet_structure_group_inner {
+  background-color: #ffdf43;
+  color: #222222;
+}
+.gso_fgcol_pfotgrey .snippet_structure_group_inner {
+  background-color: #50646a;
+  color: white;
+}
+.gso_fgcol_pfotblack .snippet_structure_group_inner {
+  background-color: #222222;
+  color: white;
+}
+.gso_fgcol_pfotred .snippet_structure_group_inner {
+  background-color: #e50046;
+  color: white;
+}
+.gso_fgcol_white .snippet_structure_group_inner {
+  background-color: white;
+  color: #222222;
+}
+/* Snippet Content Group */
+/* default BG Color for new structure */
+.snippet_content_group .snippet_content_group_inner {
+  background-color: white;
+  color: #222222;
+}
+.gso_bgcol_pfotyellow .snippet_content_group_outer {
+  background-color: #ffdf43;
+  color: #222222;
+}
+.gso_bgcol_pfotgrey .snippet_content_group_outer {
+  background-color: #50646a;
+  color: white;
+}
+.gso_bgcol_pfotblack .snippet_content_group_outer {
+  background-color: #222222;
+  color: white;
+}
+.gso_bgcol_pfotred .snippet_content_group_outer {
+  background-color: #e50046;
+  color: white;
+}
+.gso_bgcol_white .snippet_content_group_outer {
+  background-color: white;
+  color: #222222;
+}
+.gso_fgcol_pfotyellow .snippet_content_group_inner {
+  background-color: #ffdf43;
+  color: #222222;
+}
+.gso_fgcol_pfotgrey .snippet_content_group_inner {
+  background-color: #50646a;
+  color: white;
+}
+.gso_fgcol_pfotblack .snippet_content_group_inner {
+  background-color: #222222;
+  color: white;
+}
+.gso_fgcol_pfotred .snippet_content_group_inner {
+  background-color: #e50046;
+  color: white;
+}
+.gso_fgcol_white .snippet_content_group_inner {
+  background-color: white;
+  color: #222222;
+}
 /* link allgemein */
 a {
   color: #50646a;
@@ -11,12 +106,54 @@ a {
 a:active {
   color: #e50046;
 }
+div.carousel div.carousel-content {
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #222222;
+}
+#wrap section > div.container > div > div.col-md-4,
+#wrap section > div.container > div > div.col-md-6,
+#wrap section > div.container > div > div.col-md-12 {
+  background-color: transparent;
+}
+.img-rounded {
+  border-radius: 0px;
+}
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:active,
+.navbar-nav > .active > a:focus {
+  border: none;
+}
+/*
+ #wrap > section > div > div {
+   background-color: white;
+ }
+ */
+#footer .container {
+  background-color: #222222;
+}
+#footer > section.mb0.mt0 > div > div > div > div.oe_share a i {
+  color: #ffdf43 !important;
+}
+/*RESET Website Sale Donate */
+#wrap #website_sale_donate section > div.container > div > div.col-md-12 {
+  background-color: #ffdf43;
+}
+/* Hide Home*/
+#top_menu > li:nth-child(1) > a {
+  display: none;
+}
+#top_menu > li:nth-child(9) > a {
+  color: #e50046;
+}
+/* NEW DESIGN END */
 /* Buttons */
 .my_cart_quantity.label.label-primary {
   background-color: #50646a;
 }
 .btn-link {
-  color: #50646a;
+  color: white;
 }
 .btn-default {
   background-color: #50646a;
@@ -50,7 +187,7 @@ main a.btn.btn-primary:hover {
 }
 /* shop category overview */
 #products_grid_before .nav-pills > li.active > a {
-  color: #ffffff;
+  color: white;
   background-color: #50646a;
 }
 #products_grid_before .nav-pills > li.active > a:hover,
@@ -61,7 +198,7 @@ main a.btn.btn-primary:hover {
 /* Pagination */
 .pagination > .active > a,
 .pagination > .active > span {
-  color: #ffffff;
+  color: white;
   background-color: #50646a;
   border-color: #50646a;
 }
@@ -81,6 +218,7 @@ main a.btn.btn-primary:hover {
   background-color: #50646a;
   border-color: #50646a;
 }
+/* HEADER */
 #wrapwrap .navbar-default {
   background-color: white;
 }
@@ -96,7 +234,7 @@ main a.btn.btn-primary:hover {
 #wrapwrap .navbar-static-bottom header .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 #wrapwrap .navbar-static-top header .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
 #wrapwrap .navbar-static-bottom header .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-  color: #413839;
+  color: #50646a;
 }
 h1,
 h2,
@@ -111,7 +249,7 @@ h2 {
   color: #e50046;
 }
 header .navbar-default .navbar-nav > .active > a {
-  color: darkgrey;
+  color: #50646a;
 }
 header .navbar-default .navbar-nav > li > a {
   color: #222222;
@@ -123,8 +261,8 @@ header .navbar-default .navbar-nav > li > a {
 }
 /*
  header .navbar-nav>li>a:visited {
-   color: #222222;
-   border-color: #222222;
+   color: @pfot_black;
+   border-color: @pfot_black;
  }*/
 #wrapwrap > footer > div.container.mt16.mb8 > div.pull-right > a.label.label-danger {
   background-color: #222222;
@@ -162,11 +300,14 @@ header .dropdown-menu > .active > a,
 }
 header .dropdown-menu > li > a:hover,
 header .dropdown-menu > li > a:focus {
-  color: darkgrey;
+  color: #50646a;
 }
 /* ---- CONTENT BODY ---- */
 body {
   font-family: NoyhGeometric, Arial, 'Trebuchet MS';
+  /*
+   background-color: @pfot_bg_yellow;
+   */
   background-color: #ffdf43;
 }
 .navbar {
@@ -174,110 +315,96 @@ body {
   font-weight: 700;
   font-size: 19px;
 }
-/* --------- NEW DESIGN ----------------------- */
-/* --------- Snippet Design Workaround weil keine Expliziete zusätzliche Box da ist um den Forground zu setzen --------- */
-/*Setze die Background Farbe hier für 3er 2er und gesamtblöcke */
-#wrap section > div.container > div > div.col-md-4,
-#wrap section > div.container > div > div.col-md-6,
-#wrap section > div.container > div > div.col-md-12 {
+/* HEADER */
+#wrapwrap .navbar-default {
   background-color: white;
 }
-/*#wrap > section > div.container > div.row {
-    background-color: white;
- }*/
-/*#wrap > section > div > div.row {
-   background-color: white;
- }*/
-/* resets nur für den 3er block wegen dem Abstand */
-/*.container {
-   background-color: white;
- }*/
-#wrap section > div.container > div > div.col-md-4 {
-  /*
- body section .container > div div.col-md-4 {
- */
-  /* einfügen Abstand ausserhalb der Box damit der Background nicht drüber geht */
-  margin-left: 8px;
-  margin-right: 8px;
-  /* reset padding innerhalb der box*/
-  padding-left: initial;
-  padding-right: initial;
+#wrapwrap .navbar-static-top,
+#wrapwrap .navbar-static-bottom {
+  background-color: white;
 }
-#wrap section > div.container > div > div.col-md-4 p,
-#wrap section > div.container > div > div.col-md-4 h4 {
-  padding-left: 8px;
-  padding-right: 8px;
-}
-/* Korrektur des Sprungs weil das Margin drüber die gesamtbreite geändert hat*/
-#wrap section > div.container > div > div.col-md-4 {
-  width: 30.5%;
-}
-/* Reset wieder für Mobile */
-@media (max-width: 400px) {
-  #wrap section > div.container > div > div.col-md-4 {
-    width: 100%;
-  }
-}
-/*
- #wrap > section > div > div > div.col-md-4:nth-child(2) {
-   margin-left: 5px;
-   margin-right: 5px;
- }*/
-div.carousel div.carousel-content {
-  background: transparent;
-  background-color: rgba(255, 255, 255, 0.8);
+#wrapwrap .navbar-static-top header .navbar-default .navbar-nav .open .dropdown-menu > li > a,
+#wrapwrap .navbar-static-bottom header .navbar-default .navbar-nav .open .dropdown-menu > li > a {
   color: #222222;
 }
-/*#wrap > section > div > div.row {
-   background-color: white;
- }*/
-/*
- .carousel-inner .container .row {
-       position: absolute;
- }
- .carousel-inner .container .row .carousel-content {
-   bottom: 0;
-   width: auto;
- }*/
-/*
- body section > div > div > div > a,
- body section > div > div > div > p {
-   padding-left: 5px;
-   padding-right: 5px;
- }
- */
-.img-rounded {
-  border-radius: 0px;
+#wrapwrap .navbar-static-top header .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+#wrapwrap .navbar-static-bottom header .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+#wrapwrap .navbar-static-top header .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+#wrapwrap .navbar-static-bottom header .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #50646a;
 }
-.navbar-nav > .active > a,
-.navbar-nav > .active > a:hover,
-.navbar-nav > .active > a:active,
-.navbar-nav > .active > a:focus {
-  border: none;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "HernandezNiu", Arial;
+  font-weight: bold;
 }
-/*
- #wrap > section > div > div {
-   background-color: white;
- }
- */
-#footer .container {
-  background-color: #222222;
-}
-#footer > section.mb0.mt0 > div > div > div > div.oe_share a i {
-  color: #ffdf43 !important;
-}
-/*RESET Website Sale Donate */
-#wrap #website_sale_donate section > div.container > div > div.col-md-12 {
-  background-color: #ffdf43;
-}
-/* Hide Home*/
-#top_menu > li:nth-child(1) > a {
-  display: none;
-}
-#top_menu > li:nth-child(9) > a {
+h4,
+h2 {
   color: #e50046;
 }
-/* NEW DESIGN END */
+header .navbar-default .navbar-nav > .active > a {
+  color: #50646a;
+}
+header .navbar-default .navbar-nav > li > a {
+  color: #222222;
+}
+.navbar-nav > li > a {
+  border: 0px solid transparent;
+  border-radius: 0px;
+  font-weight: bold;
+}
+/*
+ header .navbar-nav>li>a:visited {
+   color: @pfot_black;
+   border-color: @pfot_black;
+ }*/
+#wrapwrap > footer > div.container.mt16.mb8 > div.pull-right > a.label.label-danger {
+  background-color: #222222;
+}
+header .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:hover:visited,
+.navbar-default .navbar-nav > li > a:focus .navbar-default {
+  color: #222222;
+  border-color: none;
+  border: none;
+}
+header .navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #222222;
+  border-color: none;
+  border: none;
+}
+header .dropdown-menu .dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #222222;
+}
+header .dropdown-menu {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0px;
+}
+header .dropdown-menu > li > a {
+  color: #222222;
+}
+header .dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #222222;
+}
+header .dropdown-menu > li > a:hover,
+header .dropdown-menu > li > a:focus {
+  color: #50646a;
+}
+/* --------------- */
+/* footer */
+/* --------------- */
+#wrapwrap > footer > div.container.mt16.mb8 > div.pull-right > a.label.label-danger {
+  background-color: #222222;
+}
 /* ---- CONTENT FOOTER ---- */
 footer {
   color: white !important;

@@ -2,7 +2,7 @@
 <data>
 
 <template id="website_pfoh_snippet_options" inherit_id="website.snippet_options">
-
+/* DELETE THIS AFTER RELEASE BEGIN */
     <xpath expr="//div[@data-snippet-option-id='blog-style']//li" position="after">
         <li class="dropdown-submenu" data-required="true">
             <a tabindex="-1" href="#">Box-Styles</a>
@@ -16,6 +16,7 @@
             </ul>
         </li>
     </xpath>
+/* DELETE THIS AFTER RELEASE END */
 
     <!-- Replace Background Colors and Images -->
     <xpath expr="//div[@data-snippet-option-id='background']/li" position="replace">
@@ -27,11 +28,13 @@
                     <ul class="dropdown-menu">
                         <li data-value='oe_dark'><a>Darken</a></li>
                         <li data-value='pfot_background_white'><a>Weiss</a></li>
-<!--                        <li data-value='pfot_red_light'><a>HG rot ÜS gelb TXT weiss</a></li>
-                        <li data-value='pfot_white_light'><a>HG weiss ÜS rot</a></li> -->
+                        <li data-value='pfot_background_red'><a>Red</a></li>
+                        <li data-value='pfot_background_grey'><a>grey</a></li>
+                        <li data-value='pfot_background_blak'><a>black</a></li>
                     </ul>
                 </li>
-                <li class="dropdown-submenu">
+
+<!--                <li class="dropdown-submenu">
                     <a tabindex="-2" href="#">Backgrounds</a>
                     <ul class="dropdown-menu">
                         <li data-value="pfotenhilfe_bg_grau"><a>Pfote grau</a></li>
@@ -41,21 +44,28 @@
                         <li data-value="pfotenhilfe_bg_solid_brown"><a>braun deckend</a></li>
                         <li data-value="pfotenhilfe_bg_solid_green"><a>grün deckend</a></li>
                     </ul>
-                </li>
+                </li>-->
+
+/* DELETE THIS AFTER RELEASE BEGIN */
+
+<!--
                <li class="dropdown-submenu">
                     <a tabindex="-2" href="#">Gradients</a>
                     <ul class="dropdown-menu">
                         <li data-value='pfot_radgradient_yellow_light'><a>Yellow Light</a></li>
                     </ul>
                 </li>
-                <li class="dropdown-submenu">
+-->
+
+<!--                <li class="dropdown-submenu">
                     <a tabindex="-2" href="#">Various</a>
                     <ul class="dropdown-menu">
                         <li data-value="oe_img_bg" data-src="/website/static/src/img/banner/aqua.jpg"><a>Aqua</a></li>
                         <li data-value="oe_img_bg" data-src="/website/static/src/img/banner/baby_blue.jpg"><a>Baby Blue</a></li>
                         <li data-value="oe_img_bg" data-src="/website/static/src/img/banner/black.jpg"><a>Black</a></li>
                     </ul>
-                </li>
+                </li>-->
+
 <!--
                 <li class="dropdown-submenu">
                     <a tabindex="-2" href="#">Umrandung</a>
@@ -66,6 +76,8 @@
                         </ul>
                 </li>
 -->
+                /* DELETE THIS AFTER RELEASE END */
+
                 <li class="dropdown-submenu">
                     <a tabindex="-2" href="#">Headings</a>
                         <ul class="dropdown-menu">
@@ -83,7 +95,9 @@
         </li>
 
     </xpath>
-<!--
+/* DELETE THIS AFTER RELEASE BEGIN */
+
+    <!--
     <xpath expr="//div[@data-snippet-option-id='blog-style']//li" position="after">
         <li class="dropdown-submenu" data-required="true">
             <a tabindex="-1" href="#">Box-Styles</a>
@@ -148,23 +162,23 @@
             </ul>
         </li>
 
-        <li class="dropdown-submenu" data-required="true">
+<!--        <li class="dropdown-submenu" data-required="true">
             <a tabindex="-1" href="#">Badges</a>
             <ul class="dropdown-menu">
                 <li class="dropdown-submenu">
                     <a tabindex="-2" href="#">Positionierung</a>
                         <ul class="dropdown-menu">
-<!--                            <li data-value='pfot_img_badge-header'><a>Header-Badge</a></li>-->
+&lt;!&ndash;                            <li data-value='pfot_img_badge-header'><a>Header-Badge</a></li>&ndash;&gt;
                             <li data-value='pfot_img_badge-header-news'><a>Header-Badge-news</a></li>
                             <li data-value='pfot_img_badge-header-schleife'><a>Header-Badge-Schleife</a></li>
                             <li data-value='pfot_img_badge-header-siegel'><a>Header-Badge-Siegel</a></li>
                             <li data-value='pfot_img_badge-header-pate'><a>Header-Badge-Pate</a></li>
                             <li data-value=''><a>remove</a></li>
-<!--                            <li data-value='dd_ribbon'><a>Badge-text</a></li>-->
+&lt;!&ndash;                            <li data-value='dd_ribbon'><a>Badge-text</a></li>&ndash;&gt;
                         </ul>
                 </li>
             </ul>
-        </li>
+        </li>-->
     </xpath>
 
     <!-- Replace Button / Links Colors -->

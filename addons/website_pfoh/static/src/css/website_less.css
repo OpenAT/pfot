@@ -1,5 +1,8 @@
 /* DEFAULTS available in all webpages */
 /* CUSTOMMER COLOURS */
+.testclassjg {
+  color: white;
+}
 header ul.navbar-right {
   margin-left: 100px;
 }
@@ -26,10 +29,6 @@ a.logo {
 }
 .navbar-header {
   position: relative;
-}
-@media (min-width: 769px) {
-}
-@media (max-width: 768px) {
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #656357 !important;
@@ -142,7 +141,7 @@ header a.navbar-brand img {
 /* ---- BASIC ELEMENTS ---- */
 /* Links */
 a {
-  color: #7697B8;
+  color: #7697b8;
 }
 a:hover {
   color: #4b6e91;
@@ -154,13 +153,13 @@ main a.btn:hover {
   color: white;
 }
 a.btn.btn-link.pull-right {
-  color: #6687A8;
+  color: #6687a8;
 }
 hr {
   border: none;
   height: 1px;
   /* Fallback if gradient is not supported at all */
-  background-color: #E5E4E2;
+  background-color: #e5e4e2;
   /* Older Browsers */
   background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(229, 228, 226, 0.85));
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(14%, rgba(255, 255, 255, 0.85)), color-stop(100%, rgba(229, 228, 226, 0.85)));
@@ -243,7 +242,7 @@ h1 {
   }
 }
 #wrap > div:nth-child(1) > section:nth-child(4) > div > div > div > h1:nth-child(2) span {
-  font-size: calc(36px + (54 - 36) * ((100vw - 300px) / (1600 - 300))) !important;
+  font-size: calc(33.23076923px) !important;
 }
 h1,
 h2,
@@ -286,7 +285,7 @@ h5 {
 .MenuDonationBadge:after {
   content: " (http://www.pfotenhilfe.org" attr(href) ") ";
   padding: 15px;
-  font-size: 0.7em;
+  font-size: .7em;
   background: #f5e388;
   color: #c1322b;
   width: 96px;
@@ -355,25 +354,25 @@ h5 {
   !* box-shadow:1px 2px 5px #888; *!
 }*/
 .btn-default {
-  background-color: #7697B8;
-  border-color: #7697B8;
+  background-color: #7697b8;
+  border-color: #7697b8;
 }
 .btn-default:hover {
-  background-color: #6687A8;
+  background-color: #6687a8;
 }
 .btn-success {
-  background-color: #7CB61C;
-  border-color: #7CB61C;
+  background-color: #7cb61c;
+  border-color: #7cb61c;
 }
 .btn-success:hover {
   background-color: #4c6f11;
 }
 .btn-primary {
-  background-color: #7697B8;
-  border-color: #7697B8;
+  background-color: #7697b8;
+  border-color: #7697b8;
 }
 .btn-primary:hover {
-  background-color: #6687A8;
+  background-color: #6687a8;
 }
 .btn-info {
   background-color: #ffde5e;
@@ -383,8 +382,8 @@ h5 {
   background-color: #f5ce1f;
 }
 .btn-warning {
-  background-color: #B8AA8C;
-  border-color: #B8AA8C;
+  background-color: #b8aa8c;
+  border-color: #b8aa8c;
 }
 .btn-warning:hover {
   background-color: #656357;
@@ -447,14 +446,14 @@ header .navbar-nav > li > a:visited {
   border-color: #d90000;
 }
 #wrapwrap > footer > div.container.mt16.mb8 > div.pull-right {
-  color: #B8AA8C;
+  color: #b8aa8c;
 }
 #wrapwrap > footer > div.container.mt16.mb8 > div.pull-right a {
-  color: #B8AA8C;
+  color: #b8aa8c;
 }
 #wrapwrap > footer > div.container.mt16.mb8 > div.pull-right > a.label.label-danger {
   background-color: #ffde5e;
-  color: #B8AA8C;
+  color: #b8aa8c;
 }
 header .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:hover:visited,
@@ -506,13 +505,13 @@ header .dropdown-menu > li > a:focus {
   background-color: #413839;
 }
 .pfotenhilfe_bg_solid_white {
-  background-color: #E5E4E2;
+  background-color: #e5e4e2;
 }
 .pfotenhilfe_bg_solid_brown {
-  background-color: #B8AA8C;
+  background-color: #b8aa8c;
 }
 .pfotenhilfe_bg_solid_green {
-  background-color: #7CB61C;
+  background-color: #7cb61c;
 }
 /* ---- BANNER ---- */
 .oe_img_bg {
@@ -527,11 +526,11 @@ footer {
   display: block;
   height: 100%;
   padding-top: 1em;
-  color: #B8AA8C;
+  color: #b8aa8c;
   background: #ffde5e;
 }
 footer a {
-  color: #6687A8;
+  color: #6687a8;
 }
 footer a:hover {
   color: #445e78;
@@ -602,7 +601,7 @@ i.fa.pfot_imgrad_none {
 }
 .pfot_radgradient_yellow_light {
   /* Fallback if gradient is not supported at all */
-  background-color: #F5E486;
+  background-color: #f5e486;
   /* Older Browsers */
   background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(245, 228, 134, 0.85));
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(14%, rgba(255, 255, 255, 0.85)), color-stop(100%, rgba(245, 228, 134, 0.85)));
@@ -616,7 +615,7 @@ i.fa.pfot_imgrad_none {
   text-align: center;
 }
 #wrap > div.container.oe_website_sale > div > div.col-md-8.col-sm-9.oe_cart > table:nth-child(2) > tbody > tr > td.text-center > form > a {
-  color: #6687A8;
+  color: #6687a8;
 }
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
@@ -873,4 +872,3 @@ body[data-rootcatid="29"] header {
     width: 100%;
   }
 }
-/*# sourceMappingURL=website_less.css.map */
