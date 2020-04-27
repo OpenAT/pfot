@@ -1,0 +1,37 @@
+
+.domain_template_header {
+    /*
+    background-image: linear-gradient(to right, rgb(107, 177, 34), rgb(181, 202, 0), rgb(42, 133, 45), rgb(69, 150, 43));
+    */
+    background: #6bb122; /* Old browsers */
+    background: -moz-linear-gradient(left,  #6bb122 0%, #b5ca00 15%, #2a852d 55%, #2a852d 55%, #2a852d 55%, #45962b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #6bb122 0%,#b5ca00 15%,#2a852d 55%,#2a852d 55%,#2a852d 55%,#45962b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #6bb122 0%,#b5ca00 15%,#2a852d 55%,#2a852d 55%,#2a852d 55%,#45962b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bb122', endColorstr='#45962b',GradientType=1 ); /* IE6-9 */
+
+    min-height: 210px;
+}
+.domain_template_header .img.img-responsive.mb16 {
+    display: block;
+}
+
+.domain_template_header > img {
+
+    min-height: 180px;
+    max-height: 180px;
+}
+.domain_template_header .col-md-6.mt16 > p {
+    text-align: right;
+    text-align-last: justify;
+}
+.domain_template_header .col-md-6.mt16 > p > a {
+    color: #333;
+}
+
+main {
+    background-color: #0f8a1838;
+}
+
+.domain_template_footer {
+    background-color: #654a2f;
+}

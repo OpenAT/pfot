@@ -599,6 +599,15 @@ i.fa.pfot_imgrad_none {
 .pfot_background_white {
   background-color: white;
 }
+.pfot_background_red {
+  background-color: #d90000;
+}
+.pfot_background_black {
+  background-color: black;
+}
+.pfot_background_grey {
+  background-color: grey;
+}
 .pfot_radgradient_yellow_light {
   /* Fallback if gradient is not supported at all */
   background-color: #f5e486;
@@ -827,6 +836,7 @@ eingebaut werden alle klappt */
 #wrap section div.container div.row div.col-md-4 img {
   width: 100%;
 }
+/* Special Design for gluecksziegenhof */
 /* Special for External Website category external RainerPredl */
 body[data-rootcatid="29"] {
   /* No media query for 'xs' since this is the default in Bootstrap*/

@@ -40,7 +40,7 @@
             ];
 
             // Add Custom font and font background colors
-            config.colorButton_colors = 'ffffff,000000,e50046,ffdf43,50646a,222222';
+            config.colorButton_colors = 'ffffff,000000,e50046,ffdf43,50646a,222222,6bb122,45962b,#56b1e6,b8aa8c,#654a2f';
             // config.colorButton_colorsPerRow = 3;
             config.colorButton_enableAutomatic = true;
 
