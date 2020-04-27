@@ -21,6 +21,7 @@
     max-height: 180px;
 }
 .domain_template_header .col-md-6.mt16 > p {
+    font-size: 2vh;
     text-align: right;
     text-align-last: justify;
 }
