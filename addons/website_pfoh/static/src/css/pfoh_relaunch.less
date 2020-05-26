@@ -559,3 +559,16 @@ h2,h4.payment_interval_ids {
 .blog_title h2, .blog_title .h2 {
     color: #e50046;
 }
+@media (max-width: 768px) {
+    header .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: @pfot_black;
+    }
+      header .navbar-default .navbar-nav .open .dropdown-menu > li:hover {
+      color: @pfot_grey;
+    }
+      .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+      .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+      .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+      color: @pfot_grey;
+}
+}
