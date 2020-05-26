@@ -740,6 +740,9 @@ input[name=vat] {
 body[data-rootcatid="28"] .ppt_opc #wsd-checkout-box img.product-image {
   width: auto !important;
 }
+#wsd-checkout-box > div > div > p > img {
+  margin: auto;
+}
 /* Website Cookie notice */
 #website_cookie_notice {
   position: fixed;

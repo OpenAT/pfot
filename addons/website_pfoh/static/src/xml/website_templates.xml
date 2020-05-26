@@ -14,12 +14,16 @@
 
      <template id="pfoh_relauch_custom_css" inherit_id="website.layout" name="Pfot Relauch Custom CSS">
          <xpath expr="//head" position="inside">
+<!--
              <t t-if="'pfot-relaunch-css' in request.httprequest.query_string">
+-->
                  <link rel="stylesheet" href='/website_pfoh/static/src/css/pfoh_relaunch.css'/>
+<!--
              </t>
-              <t t-if="'pfot-relaunch-white' in request.httprequest.query_string">
+-->
+<!--              <t t-if="'pfot-relaunch-white' in request.httprequest.query_string">
                  <link rel="stylesheet" href='/website_pfoh/static/src/css/pfoh_relaunch_yellow.css'/>
-             </t>
+             </t>-->
          </xpath>
      </template>
    <template id="pfoh_assets_editor" inherit_id="website.assets_editor" name="Pfot Editor assets">

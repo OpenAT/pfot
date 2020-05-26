@@ -14,7 +14,7 @@
   background-color: white;
 }
 .gso_bgcol_pfotyellow .snippet_structure_group_outer {
-  background-color: #ffdf43;
+  background-color: #e8e8e8;
   color: #222222;
 }
 .gso_bgcol_pfotgrey .snippet_structure_group_outer {
@@ -34,7 +34,7 @@
   color: #222222;
 }
 .gso_fgcol_pfotyellow .snippet_structure_group_inner {
-  background-color: #ffdf43;
+  background-color: #e8e8e8;
   color: #222222;
 }
 .gso_fgcol_pfotgrey .snippet_structure_group_inner {
@@ -60,7 +60,7 @@
   color: #222222;
 }
 .gso_bgcol_pfotyellow .snippet_content_group_outer {
-  background-color: #ffdf43;
+  background-color: #e8e8e8;
   color: #222222;
 }
 .gso_bgcol_pfotgrey .snippet_content_group_outer {
@@ -80,7 +80,7 @@
   color: #222222;
 }
 .gso_fgcol_pfotyellow .snippet_content_group_inner {
-  background-color: #ffdf43;
+  background-color: #e8e8e8;
   color: #222222;
 }
 .gso_fgcol_pfotgrey .snippet_content_group_inner {
@@ -134,11 +134,11 @@ div.carousel div.carousel-content {
   background-color: #222222;
 }
 #footer > section.mb0.mt0 > div > div > div > div.oe_share a i {
-  color: #ffdf43 !important;
+  color: #e8e8e8 !important;
 }
 /*RESET Website Sale Donate */
 #wrap #website_sale_donate section > div.container > div > div.col-md-12 {
-  background-color: #ffdf43;
+  background-color: #e8e8e8;
 }
 /* Hide Home*/
 #top_menu > li:nth-child(1) > a {
@@ -163,7 +163,7 @@ div.carousel div.carousel-content {
 a.btn-default:hover {
   background-color: #50646a;
   border-color: #50646a;
-  color: #ffdf43;
+  color: #e8e8e8;
 }
 .btn-primary {
   background-color: #50646a;
@@ -178,12 +178,12 @@ a.btn-default:hover {
 #website_cookie_notice a.btn.btn-primary:hover {
   background-color: #50646a;
   border-color: #50646a;
-  color: #ffdf43;
+  color: #e8e8e8;
 }
 main a.btn.btn-primary:hover {
   background-color: #50646a;
   border-color: #50646a;
-  color: #ffdf43;
+  color: #e8e8e8;
 }
 /* shop category overview */
 #products_grid_before .nav-pills > li.active > a {
@@ -192,7 +192,7 @@ main a.btn.btn-primary:hover {
 }
 #products_grid_before .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #ffdf43;
+  color: #e8e8e8;
   background-color: #50646a;
 }
 /* Pagination */
@@ -206,7 +206,7 @@ main a.btn.btn-primary:hover {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  color: #ffdf43;
+  color: #e8e8e8;
   background-color: #50646a;
   border-color: #50646a;
 }
@@ -214,7 +214,7 @@ main a.btn.btn-primary:hover {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #ffdf43;
+  color: #e8e8e8;
   background-color: #50646a;
   border-color: #50646a;
 }
@@ -247,6 +247,34 @@ h5 {
 h4,
 h2 {
   color: #e50046;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 22px;
+}
+h6 {
+  font-size: 18px;
+}
+body {
+  font-size: 16px;
+}
+p {
+  font-size: 16px;
+}
+h4.payment_interval_ids {
+  text-align: center;
+  font-size: 18px;
 }
 header .navbar-default .navbar-nav > .active > a {
   color: #50646a;
@@ -308,7 +336,7 @@ body {
   /*
    background-color: @pfot_bg_yellow;
    */
-  background-color: #ffdf43;
+  background-color: #e8e8e8;
 }
 .navbar {
   font-family: "HernandezNiu", Arial;
@@ -495,7 +523,7 @@ h4.payment_interval_ids {
 /* ---- SNIPPETS --- */
 /* Background */
 .pfoh_yellow {
-  background: #ffdf43;
+  background: #e8e8e8;
 }
 .pfoh_red_box h1,
 .pfoh_red h2,
@@ -503,8 +531,17 @@ h4.payment_interval_ids {
 .pfoh_red h4,
 .pfoh_red h5,
 .pfoh_red h6 {
-  color: #ffdf43;
+  color: #e8e8e8;
 }
 .pfoh_yellow_box {
-  background-color: #ffdf43;
+  background-color: #e8e8e8;
+}
+/* Blog */
+.blog_title h1,
+.blog_title .h1 {
+  color: white;
+}
+.blog_title h2,
+.blog_title .h2 {
+  color: #e50046;
 }
