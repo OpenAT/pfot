@@ -466,6 +466,17 @@ footer section .container > div div.col-md-4 {
 .price_donate .form-control {
   color: #50646a;
 }
+/* correction of new class btn_primary at the price_donate input field */
+#price_donate.btn-primary:active,
+#price_donate.btn-primary:focus,
+#price_donate.btn-primary:hover {
+  background-color: #50646a;
+  color: white;
+}
+#price_donate.btn-primary {
+  background-color: white;
+  color: #50646a;
+}
 /* Spendenbox SBS */
 h2,
 h4.payment_interval_ids {
