@@ -146,7 +146,7 @@
     <!-- PFOT HEADER CONTENT -->
     <template id="email_theme_pfot_header" name="PFOT Header">
         <!--<div class="ckediting_disabled snippet_block snippet_block_text_image_left">-->
-        <div class="dadi_sb_bg_full ckediting_disabled">
+        <div class="dadi_sb_bg_full ckediting_enabled">
             <table cellpadding="0" cellspacing="0" class="centeringTable">
                 <tbody>
                     <tr>
@@ -167,7 +167,7 @@
                                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" class="flexibleContainerLeft ckediting_disabled">
                                                                                 <tbody class="ckediting_disabled">
                                                                                     <tr class="ckediting_disabled">
-                                                                                        <td align="left" class="imageContent ckediting_disabled" valign="top">
+                                                                                        <td align="left" class="imageContent ckediting_enabled" valign="top">
                                                                                             
                                                                                             <img class="pfot_title_image flexibleImage" src="/fso_website_email_pfot/static/src/images/logo190.png"/>
                                                                                             
