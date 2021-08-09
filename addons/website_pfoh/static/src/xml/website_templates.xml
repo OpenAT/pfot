@@ -63,9 +63,11 @@
 
     <template id="google_webmastertools_site_verification" inherit_id="website.layout" name="Google Webmastertools site verification">
         <xpath expr="//head//title" position="after">
-            <meta name="google-site-verification" content="google562709996bd977ba.html"/>
+            <!--<meta name="google-site-verification" content="google562709996bd977ba.html"/>-->
+            <meta name="google-site-verification" content="7_3m9a0fqwwKwtkACi7QIRn0sHqGqvpw23R7sAVLOEU"/>
         </xpath>
     </template>
+
     <template id="website.robots">
         User-agent: *
         Disallow: /certifications
