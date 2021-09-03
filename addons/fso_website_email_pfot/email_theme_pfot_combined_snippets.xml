@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+
+        <!-- INHERIT AND EXTEND theme_default_snippets -->
+        <template id="email_theme_pfot_snippets_overrides_prat2" inherit_id="fso_website_email.theme_framework_snippets"
+                  name="Email Theme pfot Snippet overrides part2">
+
+            <xpath expr="//li[@id='snippet_menu_special']" position="after">
+                <li id="snippet_menu_combined_snippets_pfot">
+                    <a href="#combined_snippets_pfot" data-toggle="tab">Combined</a>
+                </li>
+            </xpath>
+
+
+            <!-- ======================= -->
+            <!--  pfot COMBINED SNIPPETS -->
+            <!-- ======================= -->
+            <xpath expr="//div[@id='snippet_email_special']" position="after">
+                <div id="combined_snippets_pfot" class="tab-pane fade">
+
+                    <!-- HEADER SNIPPET BLOCK ALLG -->
+                    <!-- =============== -->
+                    <!--<div>
+                        &lt;!&ndash; Icon and name &ndash;&gt;
+                        <div class="oe_snippet_thumbnail">
+                            <img class="oe_snippet_thumbnail_img"
+                                 src="/fso_website_email_pfot/static/src/icons/pfot_header_icon.png"/>
+                            <span class="oe_snippet_thumbnail_title">Header Snippet</span>
+                        </div>
+                        &lt;!&ndash;<div class="ckediting_disabled snippet_block snippet_block_text_image_left">&ndash;&gt;
+                        <div id="combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled pfot_bin">
+                            <div class="snippet_block ckediting_enabled snippet_block_text_intro pfot_sb_bg_background">
+                                <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table class="flexibleContainer" border="0" cellpadding="0"
+                                                       cellspacing="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="flexibleContainerCell" align="center"
+                                                                valign="top">
+                                                                <table class="nestedContainer" border="0"
+                                                                       cellpadding="0"
+                                                                       cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="nestedContainerCell"
+                                                                                align="center"
+                                                                                valign="top">
+                                                                                <table class="contentTable" border="0"
+                                                                                       cellpadding="0" cellspacing="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent ckediting_enabled"
+                                                                                                contenteditable="true">
+                                                                                                <p class="pfot_tiny"
+                                                                                                   style="text-align: center;">
+                                                                                                    <a href="%open_browser%"
+                                                                                                       data-cke-saved-href="%open_browser%"
+                                                                                                       target="_blank"
+                                                                                                       style="text-align: center; color: gray; font-weight: 700; font-size: 12px;">
+                                                                                                        Diese E-Mail im
+                                                                                                        Browser öffnen
+                                                                                                    </a>
+                                                                                                </p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        <div id="combinedheadersnippet" class="ckediting_disabled dadi_sb_bg_full ckediting_enabled snippet_block">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                   class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell"
+                                                            valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center"
+                                                                            class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0"
+                                                                                   class="contentTable">
+                                                                                <tbody class="ckediting_disabled">
+                                                                                    <tr class="ckediting_disabled">
+                                                                                        <td class="textContent ckediting_disabled">
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerLeft">
+                                                                                                <tbody class="ckediting_disabled">
+                                                                                                    <tr class="ckediting_disabled">
+                                                                                                        <td align="left"
+                                                                                                            class="imageContent ckediting_enabled"
+                                                                                                            valign="top">
+
+                                                                                                            <img class="pfot_title_image flexibleImage"
+                                                                                                                 style="position: relative; left:30px; width:150px;" src="/logo.png"/>
+
+                                                                                                        </td>
+                                                                                                        <td>
+                                                                                                            <div style="text-align:center; position: relative;width: 110px; top: -30px;left: 260px;background-color: #e50046;" class="pfot_title ckediting_enabled">
+                                                                                                                <h1 style="color: white;">Weil
+                                                                                                                    mir
+                                                                                                                    Tiere
+                                                                                                                    wichtig
+                                                                                                                    sind
+                                                                                                                </h1>
+                                                                                                            </div>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            &lt;!&ndash;                                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" class="flexibleContainerRight ckediting_disabled">&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                <tbody class="ckediting_disabled">&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                    <tr class="ckediting_disabled">&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                        <td class="textContent ckediting_disabled" valign="top">&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                            &ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                            <p style="text-align: right; display: none;">&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                                <b>Verein PFOTENHILFE</b><br/>&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                                A-1150 Wien, Diefenbachgasse 35<br/>&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                                Tel.: +43 (0)1 892 23 77<br/>&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                                <a href="mailto:info@pfotenhilfe.org">info@pfotenhilfe.org</a> . <a href="http://www.pfotenhilfe.org" target="_blank">www.pfotenhilfe.org</a>&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                            </p>&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                            &ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                        </td>&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                    </tr>&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                                </tbody>&ndash;&gt;
+                                                                                            &lt;!&ndash;                                                                            </table>&ndash;&gt;
+
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    </div>-->
+
+                    <!-- HEADER SNIPPET BLOCK default -->
+                    <!-- =============== -->
+                    <div>
+                        <!-- Icon and name -->
+                        <div class="oe_snippet_thumbnail">
+                            <img class="oe_snippet_thumbnail_img"
+                                 src="/fso_website_email_pfot/static/src/icons/pfot_header_icon.png"/>
+                            <span class="oe_snippet_thumbnail_title">Header Snippet Default</span>
+                        </div>
+                        <!--<div class="ckediting_disabled snippet_block snippet_block_text_image_left">-->
+                        <div id="combinedheadersnippetWebVersionDefault" class="oe_snippet_body ckediting_disabled pfot_bin">
+                            <div class="snippet_block ckediting_enabled snippet_block_text_intro pfot_sb_bg_background">
+                                <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table class="flexibleContainer" border="0" cellpadding="0"
+                                                       cellspacing="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="flexibleContainerCell" align="center"
+                                                                valign="top">
+                                                                <table class="nestedContainer" border="0"
+                                                                       cellpadding="0"
+                                                                       cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="nestedContainerCell"
+                                                                                align="center"
+                                                                                valign="top">
+                                                                                <table class="contentTable" border="0"
+                                                                                       cellpadding="0" cellspacing="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent ckediting_enabled"
+                                                                                                contenteditable="true">
+                                                                                                <p class="pfot_tiny"
+                                                                                                   style="text-align: center;">
+                                                                                                    <a href="%open_browser%"
+                                                                                                       data-cke-saved-href="%open_browser%"
+                                                                                                       target="_blank"
+                                                                                                       style="text-align: center; color: gray; font-weight: 700; font-size: 12px;">
+                                                                                                        Diese E-Mail im
+                                                                                                        Browser öffnen
+                                                                                                    </a>
+                                                                                                </p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        <div id="combinedheadersnippetDefault" class="ckediting_disabled dadi_sb_bg_full ckediting_enabled snippet_block">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                   class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell"
+                                                            valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center"
+                                                                            class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0"
+                                                                                   class="contentTable">
+                                                                                <tbody class="ckediting_disabled">
+                                                                                    <tr class="ckediting_disabled">
+                                                                                        <td class="textContent ckediting_disabled">
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerLeft">
+                                                                                                <tbody class="ckediting_disabled">
+                                                                                                    <tr class="ckediting_disabled">
+                                                                                                        <td align="left"
+                                                                                                            class="imageContent ckediting_enabled"
+                                                                                                            valign="top">
+
+                                                                                                            <img class="pfot_title_image flexibleImage"
+                                                                                                                 src="/logo.png"/>
+
+                                                                                                        </td>
+                                                                                                        <td>
+                                                                                                            <div style="padding-left: 10px;" class="pfot_title ckediting_enabled">
+                                                                                                                <h1>Tierschutzhof PFOTENHILFE
+                                                                                                                </h1>
+                                                                                                            </div>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- HEADER SNIPPET BLOCK Special   -->
+                    <!-- =============== -->
+                    <!--<div>
+                        &lt;!&ndash; Icon and name &ndash;&gt;
+                        <div class="oe_snippet_thumbnail">
+                            <img class="oe_snippet_thumbnail_img"
+                                 src="/fso_website_email_pfot/static/src/icons/pfot_header_icon.png"/>
+                            <span class="oe_snippet_thumbnail_title">Header Snippet special</span>
+                        </div>
+                        &lt;!&ndash;<div class="ckediting_disabled snippet_block snippet_block_text_image_left">&ndash;&gt;
+                        <div id="combinedheadersnippetSpecialWebVersion" class="oe_snippet_body ckediting_disabled pfot_bin">
+                            <div class="snippet_block ckediting_enabled snippet_block_text_intro pfot_sb_bg_background pfot_snippet_block_padding_largebox">
+                                <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table class="flexibleContainer" border="0" cellpadding="0"
+                                                       cellspacing="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="flexibleContainerCell" align="center" valign="top">
+                                                                <table class="nestedContainer" border="0"
+                                                                       cellpadding="0"
+                                                                       cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="nestedContainerCell"
+                                                                                align="center"
+                                                                                valign="top">
+                                                                                <table class="contentTable" border="0"
+                                                                                       cellpadding="0" cellspacing="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent ckediting_enabled" style="height:80px;"
+                                                                                                contenteditable="true">
+                                                                                                <p class="pfot_tiny"
+                                                                                                   style="text-align: center;">
+                                                                                                    <a href="%open_browser%"
+                                                                                                       data-cke-saved-href="%open_browser%"
+                                                                                                       target="_blank"
+                                                                                                       style="text-align: right; color: gray; font-weight: 700; font-size: 12px;">
+                                                                                                        Diese E-Mail im
+                                                                                                        Browser öffnen
+                                                                                                    </a>
+                                                                                                </p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        <div id="combinedheadersnippetSpecial" class="ckediting_disabled dadi_sb_bg_full ckediting_enabled snippet_block">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                   class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell"
+                                                            valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center"
+                                                                            class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0"
+                                                                                   class="contentTable">
+                                                                                <tbody class="ckediting_disabled">
+                                                                                    <tr class="ckediting_disabled">
+                                                                                        <td class="textContent ckediting_disabled" style="position: relative;width: 650px; max-width: 650px; height:300px; max-height:300px; background-image: url(https://www.pfotenhilfe.org/website/image/ir.attachment/951263_eb25fe2/datas);">
+                                                                                            <t t-set="olconditionals">
+                                                                                            <style type="text/css" data-premailer="ignore">
+                                                                                                //<![CDATA[
+                                                                                                    &lt;!&ndash;[if gte mso 9]>
+                                                                                                    <v:image xmlns:v="urn:schemas-microsoft-com:vml" id="theImage" style='behavior: url(#default#VML); display:inline-block;position:absolute; height:300px; width:650px;top:0;left:0;border:0;z-index:1;' src="https://www.pfotenhilfe.org/website/image/ir.attachment/951263_eb25fe2/datas"/>
+                                                                                                    <v:shape xmlns:v="urn:schemas-microsoft-com:vml" id="theText" style='behavior: url(#default#VML); display:inline-block;position:absolute; height:300px; width:650px;top:-5;left:-10;border:0;z-index:2;'>
+                                                                                                   <div>
+                                                                                                   <![endif]&ndash;&gt;
+
+                                                                                                //]]>
+                                                                                            </style>
+                                                                                            </t>
+                                                                                            <t t-raw="olconditionals">
+
+                                                                                            </t>
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerLeft">
+                                                                                                <tbody class="ckediting_disabled">
+                                                                                                    <tr class="ckediting_disabled">
+                                                                                                        <td align="left"
+                                                                                                            class="imageContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <img class="pfot_title_image flexibleImage" style="position: relative;top:-130px;left:30px;"
+                                                                                                                 src="/logo.png"/>
+                                                                                                        </td>
+                                                                                                        <td>
+                                                                                                            <div style="text-align:center; position: relative;width: 110px; top: -84px;left: 260px;background-color: #e50046;" class="pfot_title ckediting_enabled">
+                                                                                                                <h1 style="color: white;">Weil
+                                                                                                                    mir
+                                                                                                                    Tiere
+                                                                                                                    wichtig
+                                                                                                                    sind
+                                                                                                                </h1>
+                                                                                                            </div>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <t t-set="olconditionalsX">
+                                                                                            <style type="text/css" data-premailer="ignore">
+                                                                                            //<![CDATA[
+                                                                                               &lt;!&ndash;[if gte mso 9]>
+                                                                                                </div>
+                                                                                                </v:shape>
+                                                                                               <![endif]&ndash;&gt;
+                                                                                            //]]>
+                                                                                            </style>
+                                                                                            </t>
+                                                                                            <t t-raw="olconditionalsX">
+
+                                                                                            </t>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    </div>-->
+
+                    <!-- FOOTER SNIPPET BLOCK -->
+                    <!-- =============== -->
+                    <div>
+                        <!-- Icon and name -->
+                        <div class="oe_snippet_thumbnail">
+                            <img class="oe_snippet_thumbnail_img"
+                                 src="/fso_website_email_pfot/static/src/icons/pfot_footer_icon.png"/>
+                            <span class="oe_snippet_thumbnail_title">Footer Snippet New</span>
+                        </div>
+                        <div id="combinedsnippetfooter" class="oe_snippet_body ckediting_disabled pfot_bin">
+                        <div class="ckediting_disabled snippet_block snippet_block_text_threecol">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33left">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage"
+                                                                                                                 src="/fso_website_email_pfot/static/src/images/johanna.png"
+                                                                                                                 style="text-align:center;"/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33middle">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <p style="text-align: left;">
+                                                                                                                Mit
+                                                                                                                tierlieben
+                                                                                                                Grüßen,
+                                                                                                            </p>
+
+                                                                                                            <div style="text-align: left;">
+                                                                                                                Ihre
+                                                                                                            </div>
+
+                                                                                                            <div style="text-align: left;">
+                                                                                                                Johanna
+                                                                                                                Stadler
+                                                                                                            </div>
+                                                                                                            <div style="text-align: left;">
+                                                                                                                Tierschutzhof PFOTENHILFE
+                                                                                                            </div>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="right"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33right">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="right"
+                                                                                                            class="textContent ckediting_enabled wmtws"
+                                                                                                            style="text-align:right;"
+                                                                                                            valign="bottom">
+                                                                                                            <img class="flexibleImage"
+                                                                                                                 src="/fso_website_email_pfot/static/src/images/wmtws.png"
+                                                                                                                 style="width: 120px; text-align:center;"
+                                                                                                                  width="120"/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                            <!-- Abmeldelink und Social Media -->
+                            <div class="pfot_footer_social ckediting_enabled snippet_block pfot_sb_bg_darkgrey">
+                                <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td class="flexibleContainerCell" align="center" valign="top">
+                                                        <table class="nestedContainer" border="0" cellpadding="0"
+                                                               cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="nestedContainerCell" align="center"
+                                                                        valign="top">
+                                                                        <table class="contentTable" border="0"
+                                                                               cellpadding="0" cellspacing="0">
+                                                                            <tr>
+                                                                                <td class="textContent ckediting_disabled"
+                                                                                    align="center" valign="top"
+                                                                                    contenteditable="false">
+
+                                                                                    <!-- content left -->
+                                                                                    <table align="left" border="0"
+                                                                                           cellpadding="0"
+                                                                                           cellspacing="0"
+                                                                                           class="flexibleContainerLeft">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td align="center"
+                                                                                                    class="textContent ckediting_enabled"
+                                                                                                    valign="top">
+                                                                                                    <p style="text-align: left;">
+                                                                                                        Wir belästigen
+                                                                                                        Sie? Das wollen
+                                                                                                        wir nicht.
+                                                                                                        <br/>
+                                                                                                        <a href="https://www.pfotenhilfe.org/page/abmeldung-von-newsletter">
+                                                                                                            Hier können
+                                                                                                            Sie sich
+                                                                                                            abmelden
+                                                                                                        </a>
+                                                                                                    </p>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+
+                                                                                    <!-- content right -->
+                                                                                    <table align="right" border="0"
+                                                                                           cellpadding="0"
+                                                                                           cellspacing="0"
+                                                                                           class="flexibleContainerRight">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td align="center"
+                                                                                                    class="textContent ckediting_enabled"
+                                                                                                    valign="top">
+                                                                                                    <p style="text-align: right;">
+                                                                                                        <a style="text-decoration:none !important; text-decoration:none;" href="https://www.instagram.com/pfotenhilfe.lochen/"
+                                                                                                           target="_blank">
+                                                                                                            <img src="/fso_website_email_pfot/static/src/images/instagram.png"
+                                                                                                                 alt="Youtube"
+                                                                                                                 title="Youtube"/>
+                                                                                                        </a>
+                                                                                                        <a style="text-decoration:none !important; text-decoration:none;" href="https://www.facebook.com/Pfotenhilfe.Lochen"
+                                                                                                           target="_blank">
+                                                                                                            <img src="/fso_website_email_pfot/static/src/images/Facebook-hell.png"
+                                                                                                                 alt="Facebook"
+                                                                                                                 title="Facebook"/>
+                                                                                                        </a>
+                                                                                                        <a style="text-decoration:none !important; text-decoration:none;" href="https://www.youtube.com/user/PFOTENHILFELochen"
+                                                                                                           target="_blank">
+                                                                                                            <img src="/fso_website_email_pfot/static/src/images/YouTube-hell.png"
+                                                                                                                 alt="Youtube"
+                                                                                                                 title="Youtube"/>
+                                                                                                        </a>
+                                                                                                    </p>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <!-- Info und Addresse -->
+                            <div class="pfot_footer_info dadi_sb_bg_full ckediting_enabled snippet_block pfot_sb_bg_darkgrey">
+                                <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td class="flexibleContainerCell" align="center" valign="top">
+                                                        <table class="nestedContainer" border="0" cellpadding="0"
+                                                               cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="nestedContainerCell" align="center"
+                                                                        valign="top">
+                                                                        <table class="contentTable" border="0"
+                                                                               cellpadding="0" cellspacing="0">
+                                                                            <tr>
+                                                                                <td class="textContent ckediting_disabled"
+                                                                                    align="center" valign="top"
+                                                                                    contenteditable="false">
+
+                                                                                    <!-- content left -->
+                                                                                    <table align="left" border="0"
+                                                                                           cellpadding="0"
+                                                                                           cellspacing="0"
+                                                                                           class="flexibleContainerLeft">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td align="center"
+                                                                                                    class="textContent ckediting_enabled"
+                                                                                                    valign="top">
+                                                                                                    <p style="text-align: left;">
+                                                                                                        Copyright ©
+                                                                                                        PFOTENHILFE Lochen - gemeinnützige Tierschutz GmbH.
+                                                                                                        Diese E-Mail
+                                                                                                        wurde an
+                                                                                                        <span class="ckediting_disabled drop_in drop_in_print_field pf_email">
+                                                                                                            <span class="pf_email"
+                                                                                                                  data-fs-email-placeholder="%Email%"
+                                                                                                                  title="%Email%">
+                                                                                                                maximilian.mustermann@meinedomain.com
+                                                                                                            </span>
+                                                                                                        </span>
+                                                                                                        gesandt. Sie
+                                                                                                        erhalten dieses
+                                                                                                        E-Mail, weil Sie
+                                                                                                        den
+                                                                                                        Tierschutzhof
+                                                                                                        PFOTENHILFE mit
+                                                                                                        Spenden
+                                                                                                        unterstützen
+                                                                                                        oder
+                                                                                                        weil Sie sich
+                                                                                                        für unseren
+                                                                                                        Newsletter
+                                                                                                        angemeldet
+                                                                                                        haben.
+                                                                                                    </p>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+
+                                                                                    <!-- content right -->
+                                                                                    <table align="right" border="0"
+                                                                                           cellpadding="0"
+                                                                                           cellspacing="0"
+                                                                                           class="flexibleContainerRight">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td align="center"
+                                                                                                    class="textContent ckediting_enabled"
+                                                                                                    valign="top">
+                                                                                                    <p style="text-align: right;">
+                                                                                                        <strong>Unsere
+                                                                                                            Anschrift
+                                                                                                            lautet:
+                                                                                                        </strong>
+                                                                                                        <br/>
+                                                                                                        Tierschutzhof
+                                                                                                        PFOTENHILFE
+                                                                                                        <br/>
+                                                                                                        Gutferding 11,
+                                                                                                        5221 Lochen am
+                                                                                                        See
+                                                                                                        <br/>
+                                                                                                        +43|664|848 55 71
+                                                                                                        <br/>
+                                                                                                        E-Mail:
+                                                                                                        <a href="mailto:info@pfotenhilfe.at"
+                                                                                                           target="_blank">
+                                                                                                            info@pfotenhilfe.at
+                                                                                                        </a>
+                                                                                                        <br/>
+                                                                                                        Website:
+                                                                                                        <a href="http://www.pfotenhilfe.at/"
+                                                                                                           target="_blank">
+                                                                                                            www.pfotenhilfe.at
+                                                                                                        </a>
+                                                                                                    </p>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </xpath>
+        </template>
+
+
+    </data>
+</openerp>

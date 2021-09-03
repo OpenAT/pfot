@@ -1,0 +1,66 @@
+@font-face {
+    font-family: HernandezNiu;
+    src: local('HernandezNiu-Regular'), local('HernandezNiu Regular'), local('HernandezNiuRegular'), url("/fso_website_email_pfot/static/src/css/fonts/headfonts/HernandezNiu-Regular.otf") format("opentype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: HernandezNiu-Bold;
+    src: local('HernandezNiu Bold'), local('HernandezNiuBold'), url("/fso_website_email_pfot/static/src/css/fonts/headfonts/HernandezNiu-Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: HernandezNiu-BoldItalic;
+    src: local('HernandezNiu BoldItalic'), local('HernandezNiuBoldItalic'), url("/fso_website_email_pfot/static/src/css/fonts/headfonts/HernandezNiu-BoldItalic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: HernandezNiu-Heavy;
+    src: local('HernandezNiu Heavy'), local('HernandezNiuHeavy'), url("/fso_website_email_pfot/static/src/css/fonts/headfonts/HernandezNiu-Heavy.otf") format("opentype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: HernandezNiu-HeavyItalic;
+    src: local('HernandezNiu HeavyItalic'), local('HernandezNiuHeavyItalic'), url("/fso_website_email_pfot/static/src/css/fonts/headfonts/HernandezNiu-HeavyItalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: HernandezNiu-UltraBold;
+    src: local('HernandezNiu UltraBold'), local('HernandezNiuUltraBold'), url("/fso_website_email_pfot/static/src/css/fonts/headfonts/HernandezNiu-UltraBold.otf") format("opentype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: HernandezNiu-UltraBoldItalic;
+    src: local('HernandezNiu UltraBoldItalic'), local('HernandezNiuUltraBoldItalic'), url("/fso_website_email_pfot/static/src/css/fonts/headfonts/HernandezNiu-UltraBoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: HernandezNiu-BoldItalic;
+    src: local('HernandezNiu BoldItalic'), local('HernandezNiuBoldItalic'), url("/fso_website_email_pfot/static/src/css/fonts/headfonts/HernandezNiu-BoldItalic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: HernandezNiu-Italic;
+    src: local('HernandezNiu Italic'), local('HernandezNiuItalic'), url("/fso_website_email_pfot/static/src/css/fonts/headfonts/HernandezNiu-italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: NoyhGeometric;
+    src: local('NoyhGeometric Regular'), local('NoyhGeometricRegular'), url("/fso_website_email_pfot/static/src/css/fonts/textfonts/NoyhGeometric-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: NoyhGeometric-Bold;
+    src: local('NoyhGeometric Bold'), local('NoyhGeometricBold'), url("/fso_website_email_pfot/static/src/css/fonts/textfonts/NoyhGeometric-Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: NoyhGeometric-Light;
+    src: local('NoyhGeometric Light'), local('NoyhGeometricLight'), url("/fso_website_email_pfot/static/src/css/fonts/textfonts/NoyhGeometric-Light.otf") format("opentype");
+    font-weight: light;
+}

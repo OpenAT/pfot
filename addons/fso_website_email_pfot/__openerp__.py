@@ -42,8 +42,9 @@ Custom Newsletter-Theme for Pfot based on the website design.
         'fso_website_email',
     ],
     'data': [
+        'email_theme_pfot_snippets.xml',
+        'email_theme_pfot_combined_snippets.xml',
         'email_theme_pfot.xml',
-        'email_theme_pfot_basic.xml',
     ],
     'qweb': [
     ],

@@ -6,6 +6,31 @@
     #pfot_header_body {
         display: none !important;
     }
+    #combinedsnippetfooter > div.pfot_footer_info.dadi_sb_bg_full.ckediting_enabled.snippet_block.pfot_sb_bg_darkgrey > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table.flexibleContainerLeft > tbody > tr > td > p,
+    #combinedsnippetfooter > div.pfot_footer_social.ckediting_enabled.snippet_block.pfot_sb_bg_darkgrey > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table.flexibleContainerLeft > tbody > tr > td > p,
+    #combinedsnippetfooter > div.pfot_footer_social.ckediting_enabled.snippet_block.pfot_sb_bg_darkgrey > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table.flexibleContainerRight > tbody > tr > td > p,
+    #combinedsnippetfooter > div.pfot_footer_info.dadi_sb_bg_full.ckediting_enabled.snippet_block.pfot_sb_bg_darkgrey > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table.flexibleContainerRight > tbody > tr > td > p {
+        text-align: center;
+    }
+    #combinedheadersnippet img.flexibleImage,
+    #combinedheadersnippetSpecial img.flexibleImage {
+        height: auto !important;
+        width: 108px !important;
+        max-width: 108px !important;
+    }
+    #combinedheadersnippetWebVersionDefault table.flexibleContainerRight,
+    #combinedheadersnippetWebVersionDefault table.flexibleContainerLeft,
+    #combinedheadersnippetWebVersionDefault table.flexibleContainer33 {
+        text-align: left;
+    }
+    #combinedheadersnippetSpecial > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > div,
+    #combinedheadersnippet > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > div {
+        left: 0px;
+    }
+    #combinedheadersnippet > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td
+    #combinedheadersnippetSpecial > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td {
+        max-width: 300px;
+    }
 
     #pfot_header_body, #emailBody, #pfot_footer_body,
     table.flexibleContainer {
@@ -42,4 +67,7 @@
         font-size: 14px;
         font-weight: 300;
     }
+    #combinedsnippetfooter .wmtws img {
+    padding-top: 1%;
+}
 }
