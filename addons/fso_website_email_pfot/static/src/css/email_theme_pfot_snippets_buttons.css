@@ -43,7 +43,7 @@
     background-color: transparent;
 }
 #emailBody span.drop_in_button.dadi_di_button_black a {
-    background-color: #000000;
+    background-color: #222222;
     color: white;
 }
 #emailBody span.drop_in_button.dadi_di_button_green a {
@@ -55,13 +55,13 @@
     color: #5a5a5a;
 }
 #emailBody span.drop_in_button.dadi_di_button_red a {
-    background-color: #c41501;
+    background-color: #e50046;
     color: white;
 }
 #emailBody span.drop_in_button.dadi_di_button_blue a {
-    background-color: #cae0f7;
+    background-color: #9ed1ed;
     color: #5a5a5a;
-    border-color: #cae0f7;
+    border-color: #9ed1ed;
 }
 #emailBody span.drop_in_button.dadi_di_button_orange a {
     background-color: #f49800;
@@ -75,4 +75,38 @@
 }
 
 
-
+#emailBody span.drop_in_button.pfot_di_button_style_green a:hover,
+#emailBody span.drop_in_button.pfot_di_button_style_green a:visited,
+#emailBody span.drop_in_button.pfot_di_button_style_green a {
+    background-color: #94c03d;
+    border-color: #94c03d;
+    color: white;
+}
+#emailBody span.drop_in_button.pfot_di_button_style_brown a:hover,
+#emailBody span.drop_in_button.pfot_di_button_style_brown a:visited,
+#emailBody span.drop_in_button.pfot_di_button_style_brown a {
+    background-color: #bfa78a;
+    border-color: #bfa78a;
+    color: white;
+}
+#emailBody span.drop_in_button.pfot_di_button_style_yellow a:hover,
+#emailBody span.drop_in_button.pfot_di_button_style_yellow a:visited,
+#emailBody span.drop_in_button.pfot_di_button_style_yellow a {
+    background-color: #fddf81;
+    border-color: #fddf81;
+    color: white;
+}
+#emailBody span.drop_in_button.pfot_di_button_style_darkgrey a:hover,
+#emailBody span.drop_in_button.pfot_di_button_style_darkgrey a:visited,
+#emailBody span.drop_in_button.pfot_di_button_style_darkgrey a {
+    background-color: #222222;
+    border-color: #222222;
+    color: white;
+}
+#emailBody span.drop_in_button.pfot_di_button_style_darkgreen a:hover,
+#emailBody span.drop_in_button.pfot_di_button_style_darkgreen a:visited,
+#emailBody span.drop_in_button.pfot_di_button_style_darkgreen a {
+    background-color: #50646a;
+    border-color: #50646a;
+    color: white;
+}
