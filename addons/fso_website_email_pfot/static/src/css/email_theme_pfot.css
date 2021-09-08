@@ -84,6 +84,11 @@ html body #wrapwrap {
     width: 50%;
 }
 
+#combinedsnippetfooter .pfot_footer_info .flexibleContainerLeft,
+#combinedsnippetfooter .pfot_footer_info .flexibleContainerRight {
+    width: 290px;
+}
+
 #combinedsnippetfooter .pfot_footer_social p,
 #combinedsnippetfooter .pfot_footer_social a {
     font-size: 11px;
