@@ -142,6 +142,25 @@ a:active {
      background-color: rgba(255, 255, 255, 0.3);
      color: @pfot_black;
  }
+ @media (max-width: 414px) {
+   div.carousel div.carousel-content {
+     position: absolute;
+    bottom: 50px;
+    width: 100%;
+   }
+   div.carousel div.carousel-content h2 {
+      font-size: 5vmin;
+   }
+   div.carousel div.carousel-content h3 {
+      font-size: 4vmin;
+   }
+   div.carousel div.carousel-content p {
+      font-size: 3vmin;
+   }
+  div.carousel div.carousel-content .btn.btn-default {
+      font-size: 12px;
+   }
+ }
   #wrap section > div.container > div > div.col-md-4,
  #wrap section > div.container > div > div.col-md-6,
  #wrap section > div.container > div > div.col-md-12 {
@@ -584,3 +603,14 @@ h2,h4.payment_interval_ids {
       color: @pfot_grey;
 }
 }
+
+/* survey Options */
+div[class*="survey-"] .container h2 {
+  font-weight: 300;
+}
+div[class*="survey-"] .container .js_question-wrapper label {
+  font-weight: 500;
+  font-size: 20px;
+}
+div[class*="survey-"] .container button[name="button_submit"] {
+  }
