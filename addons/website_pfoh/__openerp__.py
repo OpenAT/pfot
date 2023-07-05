@@ -43,6 +43,7 @@ Anpassungen an CSS, Snippets, Images und alles was zum CMS gehört.
     ],
     'installable': True,
     'data': [
+        'views/templates.xml',
         'static/src/xml/website_templates.xml',
         #'views/snippets.xml',
         'views/snippet_options.xml',
