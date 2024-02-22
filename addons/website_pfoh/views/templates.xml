@@ -7,6 +7,19 @@
                 <link rel="shortcut icon" type="image/png" href="/website_pfoh/static/src/img/logo.png"/>
             </xpath>
         </template>
+
+        <template id="custom_shop_title" name="Custom Shop Title" inherit_id="website.layout">
+            <xpath expr="//title" position="replace">
+                <!-- In den Kategorien X, besonderen Shop-Titel zeigen -->
+                <t t-if="'/category/' in request.httprequest.path and (request.httprequest.path.endswith('-4') or request.httprequest.path.endswith('-5') or request.httprequest.path.endswith('-30'))">
+                    <title>Tiervermittlung | Pfotenhilfe</title>
+                </t>
+                <!-- Sonst normalen titel -->
+                <t t-if="not ('/category/' in request.httprequest.path and (request.httprequest.path.endswith('-4') or request.httprequest.path.endswith('-5') or request.httprequest.path.endswith('-30')))">
+                    <title><t t-esc="title"/></title>
+                </t>
+            </xpath>
+        </template>
         
         <template id="theme_pfot_matomo_tag_manager" name="PFOT Matomo Tag Manager" inherit_id="website.layout">
             <xpath expr="//head" position="inside">
