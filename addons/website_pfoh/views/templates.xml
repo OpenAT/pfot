@@ -2,6 +2,12 @@
 <openerp>
     <data>
 
+        <template id="pfot_website_icon" name="Pfotenhilfe Icon" inherit_id="website.layout">
+            <xpath expr="//head" position="inside">
+                <link rel="shortcut icon" type="image/png" href="/website_pfoh/static/src/img/logo.png"/>
+            </xpath>
+        </template>
+        
         <template id="theme_pfot_matomo_tag_manager" name="PFOT Matomo Tag Manager" inherit_id="website.layout">
             <xpath expr="//head" position="inside">
                 <t t-set="matomo_snippet">
