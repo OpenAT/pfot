@@ -602,3 +602,7 @@ div[class*="survey-"] .container .js_question-wrapper label {
     width: 100%;
   }
 }
+
+.m1px {
+  margin: 1px;
+}
