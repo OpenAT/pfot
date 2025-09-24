@@ -606,3 +606,7 @@ div[class*="survey-"] .container .js_question-wrapper label {
 .m1px {
   margin: 1px;
 }
+
+p[data-oe-id="1632"] {
+  display: none;
+}
