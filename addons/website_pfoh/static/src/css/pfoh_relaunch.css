@@ -14,7 +14,7 @@
   background-color: white;
 }
 .gso_bgcol_pfotyellow .snippet_structure_group_outer {
-  background-color: #e8e8e8;
+  background-color: #fef8d8;
   color: #222222;
 }
 .gso_bgcol_pfotgrey .snippet_structure_group_outer {
@@ -34,7 +34,7 @@
   color: #222222;
 }
 .gso_fgcol_pfotyellow .snippet_structure_group_inner {
-  background-color: #e8e8e8;
+  background-color: #fef8d8;
   color: #222222;
 }
 .gso_fgcol_pfotgrey .snippet_structure_group_inner {
@@ -60,7 +60,7 @@
   color: #222222;
 }
 .gso_bgcol_pfotyellow .snippet_content_group_outer {
-  background-color: #e8e8e8;
+  background-color: #fef8d8;
   color: #222222;
 }
 .gso_bgcol_pfotgrey .snippet_content_group_outer {
@@ -80,7 +80,7 @@
   color: #222222;
 }
 .gso_fgcol_pfotyellow .snippet_content_group_inner {
-  background-color: #e8e8e8;
+  background-color: #fef8d8;
   color: #222222;
 }
 .gso_fgcol_pfotgrey .snippet_content_group_inner {
@@ -153,11 +153,11 @@ div.carousel div.carousel-content {
   background-color: #222222;
 }
 #footer > section.mb0.mt0 > div > div > div > div.oe_share a i {
-  color: #e8e8e8 !important;
+  color: #fef8d8 !important;
 }
 /*RESET Website Sale Donate */
 #wrap #website_sale_donate section > div.container > div > div.col-md-12 {
-  background-color: #e8e8e8;
+  background-color: #fef8d8;
 }
 /* Hide Home*/
 #top_menu > li:nth-child(1) > a {
@@ -182,7 +182,7 @@ div.carousel div.carousel-content {
 a.btn-default:hover {
   background-color: #50646a;
   border-color: #50646a;
-  color: #e8e8e8;
+  color: #fef8d8;
 }
 .btn-primary {
   background-color: #50646a;
@@ -197,12 +197,12 @@ a.btn-default:hover {
 #website_cookie_notice a.btn.btn-primary:hover {
   background-color: #50646a;
   border-color: #50646a;
-  color: #e8e8e8;
+  color: #fef8d8;
 }
 main a.btn.btn-primary:hover {
   background-color: #50646a;
   border-color: #50646a;
-  color: #e8e8e8;
+  color: #fef8d8;
 }
 /* shop category overview */
 #products_grid_before .nav-pills > li.active > a {
@@ -211,7 +211,7 @@ main a.btn.btn-primary:hover {
 }
 #products_grid_before .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #e8e8e8;
+  color: #fef8d8;
   background-color: #50646a;
 }
 /* Pagination */
@@ -225,7 +225,7 @@ main a.btn.btn-primary:hover {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  color: #e8e8e8;
+  color: #fef8d8;
   background-color: #50646a;
   border-color: #50646a;
 }
@@ -233,7 +233,7 @@ main a.btn.btn-primary:hover {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #e8e8e8;
+  color: #fef8d8;
   background-color: #50646a;
   border-color: #50646a;
 }
@@ -355,7 +355,7 @@ body {
   /*
    background-color: @pfot_bg_yellow;
    */
-  background-color: #e8e8e8;
+  background-color: #fef8d8;
 }
 .navbar {
   font-family: "HernandezNiu", Arial;
@@ -553,7 +553,7 @@ h4.payment_interval_ids {
 /* ---- SNIPPETS --- */
 /* Background */
 .pfoh_yellow {
-  background: #e8e8e8;
+  background: #fef8d8;
 }
 .pfoh_red_box h1,
 .pfoh_red h2,
@@ -561,10 +561,10 @@ h4.payment_interval_ids {
 .pfoh_red h4,
 .pfoh_red h5,
 .pfoh_red h6 {
-  color: #e8e8e8;
+  color: #fef8d8;
 }
 .pfoh_yellow_box {
-  background-color: #e8e8e8;
+  background-color: #fef8d8;
 }
 /* Blog */
 .blog_title h1,
@@ -595,4 +595,8 @@ div[class*="survey-"] .container h2 {
 div[class*="survey-"] .container .js_question-wrapper label {
   font-weight: 500;
   font-size: 20px;
+}
+
+.w-xs-100 {
+  width: 100%;
 }
