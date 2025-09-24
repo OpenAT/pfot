@@ -597,6 +597,8 @@ div[class*="survey-"] .container .js_question-wrapper label {
   font-size: 20px;
 }
 
-.w-xs-100 {
-  width: 100%;
+@media (max-width: 640px) {
+  .w-xs-100 {
+    width: 100%;
+  }
 }
