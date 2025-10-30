@@ -46,5 +46,12 @@
             </xpath>
         </template>
 
+        <template id="google_index" inherit_id="website.layout" name="google site index">
+            <xpath expr="//head" position="inside">
+                <meta name="robots" content="noindex" />
+                <meta name="google-site-verification" content="iUW2TWyt5zzlx_6iWx29-maQj59Cqn0gLqyfDjvTerI" />
+            </xpath>
+        </template>
+
     </data>
 </openerp>
