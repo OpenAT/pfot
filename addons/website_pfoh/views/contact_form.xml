@@ -18,6 +18,20 @@
             <xpath expr='//input[@name="partner_name"]' position="attributes">
                 <attribute name="required"/>
             </xpath>
+        <xpath expr="//form/div/div/button/../.." position="before">
+            <!-- Newsletter -->
+            <div t-attf-class="form-group #{error and 'newsletter_web' in error and 'has-error' or ''}">
+                <label class="col-md-3 col-sm-4 control-label" for="newsletter_web"></label>
+                <div class="col-md-7 col-sm-8">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="newsletter_web" required="True"/>
+                            <span name="newsletter_web">Please send me your newsletter!</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </xpath>
         </template>
 
     </data>

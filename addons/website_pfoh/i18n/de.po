@@ -53,3 +53,8 @@ msgstr "Spendenzweck"
 #: view:website:website_sale.products
 msgid "All Products"
 msgstr "Alle"
+
+#. module: website_pfoh
+#: view:website:website.snippets
+msgid "Please send me your newsletter!"
+msgstr "Ja bitte senden Sie mir Ihren Newsletter"
